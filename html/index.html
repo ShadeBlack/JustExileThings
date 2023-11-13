@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>poe sentinel planner</title>
+		<link rel="stylesheet" href="output.css" />
+
+		<style>
+			/* Add your styles for the skill tree map here */
+			#map {
+				width: 887px; /* Set the width of your map */
+				height: 986px; /* Set the height of your map */
+				/* background-image: url("reference.jpg"); */
+				background-size: contain;
+				position: relative;
+				transition: transform 0.5s; /* Add smooth transition for zoom */
+			}
+
+			.node {
+				/* border: 2px solid #2980b9; */
+				border-radius: 50%;
+				position: absolute;
+				cursor: pointer;
+			}
+			.node.s1 {
+				width: 26px;
+				height: 26px;
+			}
+			.node.s2 {
+				width: 40px;
+				height: 40px;
+			}
+			.node.s3 {
+				width: 80px;
+				height: 80px;
+			}
+			.line {
+				stroke: #3498db;
+				stroke-width: 2;
+			}
+		</style>
+	</head>
+	<body class="bg-gray-950 text-gray-50">
+		<!-- header -->
+		<div class="container mx-auto text-center mt-10 mb-6">
+			<div class="text-xl">Path of Exile</div>
+			<div class="text-lg">Sentinel Planner</div>
+		</div>
+
+		<!-- planner -->
+		<div class="grid justify-center">
+			<div id="map" class="rounded-full border-2 border-gray-400 bg-opacity-50 bg-stone-400"></div>
+		</div>
+
+		<!-- footer -->
+
+		<!-- scripts -->
+		<script src="process.js"></script>
+		<script src="https://unpkg.com/@popperjs/core@2"></script>
+		<script src="https://unpkg.com/tippy.js@6"></script>
+	</body>
+</html>

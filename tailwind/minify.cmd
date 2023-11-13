@@ -1,0 +1,1 @@
+tailwindcss-v3.3.2 -i input.css -o ./../html/output.min.css --minify

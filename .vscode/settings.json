@@ -1,0 +1,10 @@
+{
+	"prettier.tabWidth": 4,
+	"prettier.useTabs": true,
+	"tailwindCSS.includeLanguages": {
+		"php": "php"
+	},
+	"files.associations": {
+		"*.css": "tailwindcss"
+	}
+}
