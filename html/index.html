@@ -21,7 +21,6 @@
 				/* border: 2px solid #2980b9; */
 				border-radius: 50%;
 				position: absolute;
-				cursor: pointer;
 			}
 			.node.s1 {
 				width: 26px;
@@ -42,18 +41,31 @@
 		</style>
 	</head>
 	<body class="bg-gray-950 text-gray-50">
-		<!-- header -->
-		<div class="container mx-auto text-center mt-10 mb-6">
-			<div class="text-xl">Path of Exile</div>
-			<div class="text-lg">Sentinel Planner</div>
-		</div>
+		<div class="container mx-auto flex justify-center mt-10">
+			<!-- planner -->
+			<div class="grid justify-center">
+				<div id="map" class="rounded-full border-2 border-gray-800 bg-stone-400"></div>
+			</div>
 
-		<!-- planner -->
-		<div class="grid justify-center">
-			<div id="map" class="rounded-full border-4 border-gray-800 bg-stone-400"></div>
+			<!-- stats -->
+			<div class="flex flex-col w-96 pl-3">
+				<div class="text-xl">Path of Exile</div>
+				<div class="text-lg">Sentinel Planner</div>
+				<div class="mt-6 text-gray-400 font-semibold mb-2">Code:</div>
+				<div class="flex">
+					<input type="text" id="inpCode" class="rounded border rounded-r-none py-2 px-3 outline-none border-gray-800 bg-gray-900" readonly />
+					<button type="button" id="btnCopy" class="rounded border rounded-l-none py-2 px-3 outline-none border-gray-800 bg-gray-900" data-tippy-content="Copy to clipboard">📋</button>
+				</div>
+				<div class="mt-6">
+					<span class="text-gray-400 font-semibold mb-2">Power Units:</span><br />
+					<span id="outUnits">0</span> / 30
+				</div>
+				<div class="mt-6 text-gray-400 font-semibold mb-2">Active Nodes:</div>
+				<div class="max-h-[700px] overflow-auto text-sm">
+					<ul id="outNodes" class="list-disc list-inside indent-[-1.5em] pl-[2em]"></ul>
+				</div>
+			</div>
 		</div>
-
-		<!-- footer -->
 
 		<!-- scripts -->
 		<script src="process.js"></script>
