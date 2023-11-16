@@ -601,6 +601,10 @@ video {
   height: 100%;
 }
 
+.h-\[986px\] {
+  height: 986px;
+}
+
 .max-h-\[700px\] {
   max-height: 700px;
 }
@@ -611,6 +615,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[887px\] {
+  width: 887px;
 }
 
 .transform {
@@ -786,6 +794,10 @@ video {
 
 .to-slate-900 {
   --tw-gradient-to: #0f172a var(--tw-gradient-to-position);
+}
+
+.bg-contain {
+  background-size: contain;
 }
 
 .px-3 {

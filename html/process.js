@@ -1081,7 +1081,7 @@ function addNodes() {
 		let ch = node.tip ? "cursor-help" : "";
 		// modify the node
 		ne.className = `
-			node z-20 absolute ${ch} s${node.size}
+			node absolute rounded-full z-20 ${ch} s${node.size}
 			transition-colors border
 			bg-gray-950 border-gray-600 ${d}
 			hover:bg-sky-500 hover:border-blue-950`;
@@ -1233,6 +1233,7 @@ function powerNodes() {
 	let on = document.getElementById("outNodes");
 	on.innerHTML = "";
 	san.sort().forEach((e) => {
+		if (!e) return;
 		const li = document.createElement("li");
 		li.innerHTML = e;
 		li.classList.add("pb-2");
