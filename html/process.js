@@ -1,10 +1,12 @@
 // data
 const nodes = [
 	{
-		tip: "Starting point",
+		tip: "",
 		top: 163,
 		left: 300,
 		size: 1,
+		points: 0,
+		connects: ["l165338"],
 	},
 	{
 		tip: "Apex Sentinel slot",
@@ -1023,28 +1025,28 @@ const lines = [
 		connects: ["l755480", "l700493", "l757510"],
 	},
 	{
-		powered: 1,
 		top: 85,
 		left: 380,
 		width: 8,
 		height: 140,
 		angle: 260,
+		connects: ["l165338"],
 	},
 	{
-		powered: 1,
 		top: 106,
 		left: 380,
 		width: 8,
 		height: 140,
 		angle: 90,
+		connects: ["l165338"],
 	},
 	{
-		powered: 1,
 		top: 128,
 		left: 380,
 		width: 8,
 		height: 140,
 		angle: 100,
+		connects: ["l165338"],
 	},
 ];
 let clicked = [];
@@ -1076,9 +1078,10 @@ function addNodes() {
 		let ne = document.createElement("div");
 		let id = `n${node.top}${node.left}`;
 		let d = node.d ? "bg-red-400" : "";
+		let ch = node.tip ? "cursor-help" : "";
 		// modify the node
 		ne.className = `
-			node z-20 absolute cursor-help s${node.size}
+			node z-20 absolute ${ch} s${node.size}
 			transition-colors border
 			bg-gray-950 border-gray-600 ${d}
 			hover:bg-sky-500 hover:border-blue-950`;
@@ -1086,7 +1089,7 @@ function addNodes() {
 		ne.style.left = `${node.left}px`;
 		ne.setAttribute("id", id);
 		ne.setAttribute("data-points", node.points);
-		ne.setAttribute("data-tippy-content", node.tip);
+		if (node.tip) ne.setAttribute("data-tippy-content", node.tip);
 
 		// add
 		map.appendChild(ne);
