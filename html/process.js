@@ -1053,6 +1053,7 @@ let clicked = [];
 
 // when ready
 document.addEventListener("DOMContentLoaded", () => {
+	// addProgress();
 	addNodes();
 	addLines();
 	tooltips();
@@ -1067,6 +1068,20 @@ document.addEventListener("DOMContentLoaded", () => {
 		if (cv) navigator.clipboard.writeText(cv);
 	});
 });
+
+// function addProgress() {
+// 	let map = document.getElementById("mapContainer");
+// 	let pbc = document.createElement("div");
+// 	pbc.className = `absolute rounded z-20 border bg-white`;
+// 	pbc.style = "top:60px; left:110px; height:175px; width:660px;";
+// 	map.appendChild(pbc);
+
+// 	let pb = document.createElement("div");
+// 	pb.setAttribute("id", "progressBar");
+// 	pb.className = `bar bg-sky-400 transition-all`;
+// 	pb.style = "height:100%; width:50%;";
+// 	pbc.appendChild(pb);
+// }
 
 function addNodes() {
 	// vars
@@ -1119,6 +1134,7 @@ function addLines() {
 		le.setAttribute("id", id);
 		le.addEventListener("click", (e) => {
 			let t = e.currentTarget;
+			// id helper
 			// let id = t.getAttribute("id");
 			// clicked.push(id);
 			// console.log(clicked);
@@ -1132,6 +1148,10 @@ function addLines() {
 			cl.forEach((c) => t.classList.toggle(c));
 			linesToURL();
 			powerNodes();
+			// 30 max power units
+			let tp = t.classList.contains("powered");
+			let pu = parseInt(document.getElementById("outUnits").innerHTML);
+			if (tp && pu >= 31) t.click();
 		});
 
 		// add
@@ -1228,6 +1248,12 @@ function powerNodes() {
 	let cl = ["font-semibold", "text-red-400"];
 	let fn = spu > 30 ? "add" : "remove";
 	cl.forEach((c) => ou.classList[fn](c));
+
+	// power uits
+	let pu = document.querySelectorAll(".unit");
+	pu.forEach((e) => e.classList.add("hidden"));
+	pu = Array.from(pu).filter((e, i) => parseInt(e.getAttribute("data-value")) <= spu);
+	pu.forEach((e) => e.classList.remove("hidden"));
 
 	// active node tips
 	let on = document.getElementById("outNodes");
