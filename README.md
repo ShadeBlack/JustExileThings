@@ -1,10 +1,11 @@
 # JustExileThings:
-A collection of Path of Exile tools / resources with a web interface
-
-Done for fun
+- Link: https://shadeblack.github.io/JustExileThings/html/
+- A collection of Path of Exile tools / resources with a web interface
+- Usually **not** mobile friendly
+- Done for fun
 
 ___
-### Charm Finder
+### Affliction Charm Finder
 [3.23] Interactive charm combinations list / finder.
 
 ___
