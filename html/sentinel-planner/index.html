@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" class="w-full h-full">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>JustExileThings: Sentinel Planner</title>
+		<link rel="stylesheet" href="/html/output.css" />
+
+		<style>
+			#map {
+				background-image: url("reference.png");
+			}
+
+			.node.s1 {
+				width: 26px;
+				height: 26px;
+			}
+			.node.s2 {
+				width: 48px;
+				height: 48px;
+			}
+			.node.s3 {
+				width: 80px;
+				height: 80px;
+			}
+			.unit {
+				background-color: #08c2f4;
+			}
+		</style>
+	</head>
+	<body class="bg-gray-950 text-gray-50">
+		<!-- title -->
+		<div class="flex justify-center">
+			<h1 class="text-xl py-6">
+				<a href="/html/" class="cursor-pointer transition-colors hover:text-yellow-200">: JustExileThings :</a>
+			</h1>
+		</div>
+
+		<!-- content -->
+		<div class="grid grid-cols-1 lg:grid-cols-[887px_24rem] mt-10 justify-center">
+			<!-- sentinel map -->
+			<div id="mapContainer" class="relative">
+				<!-- progress bar -->
+				<div id="progress" class="absolute">
+					<div data-value="1" class="unit hidden absolute h-5 w-6" style="top: 222px; left: 115px; rotate: 40deg"></div>
+					<div data-value="2" class="unit hidden absolute h-5 w-6" style="top: 202px; left: 132px; rotate: 42deg"></div>
+					<div data-value="3" class="unit hidden absolute h-5 w-6" style="top: 182px; left: 150px; rotate: 45deg"></div>
+					<div data-value="4" class="unit hidden absolute h-5 w-6" style="top: 165px; left: 168px; rotate: 47deg"></div>
+					<div data-value="5" class="unit hidden absolute h-5 w-6" style="top: 150px; left: 186px; rotate: 52deg"></div>
+					<div data-value="6" class="unit hidden absolute h-5 w-6" style="top: 135px; left: 206px; rotate: 55deg"></div>
+					<div data-value="7" class="unit hidden absolute h-5 w-6" style="top: 122px; left: 228px; rotate: 58deg"></div>
+					<div data-value="8" class="unit hidden absolute h-5 w-6" style="top: 110px; left: 250px; rotate: 62deg"></div>
+					<div data-value="9" class="unit hidden absolute h-5 w-6" style="top: 99px; left: 273px; rotate: 66deg"></div>
+					<div data-value="10" class="unit hidden absolute h-5 w-6" style="top: 90px; left: 295px; rotate: 70deg"></div>
+					<div data-value="11" class="unit hidden absolute h-5 w-6" style="top: 82px; left: 320px; rotate: 74deg"></div>
+					<div data-value="12" class="unit hidden absolute h-5 w-6" style="top: 76px; left: 344px; rotate: 78deg"></div>
+					<div data-value="13" class="unit hidden absolute h-5 w-6" style="top: 71px; left: 369px; rotate: 82deg"></div>
+					<div data-value="14" class="unit hidden absolute h-5 w-6" style="top: 67px; left: 394px; rotate: 85deg"></div>
+					<div data-value="15" class="unit hidden absolute h-5 w-6" style="top: 66px; left: 419px; rotate: 89deg"></div>
+					<div data-value="16" class="unit hidden absolute h-5 w-6" style="top: 66px; left: 444px; rotate: 92deg"></div>
+					<div data-value="17" class="unit hidden absolute h-5 w-6" style="top: 68px; left: 470px; rotate: 96deg"></div>
+					<div data-value="18" class="unit hidden absolute h-5 w-6" style="top: 71px; left: 495px; rotate: 99deg"></div>
+					<div data-value="19" class="unit hidden absolute h-5 w-6" style="top: 76px; left: 519px; rotate: 103deg"></div>
+					<div data-value="20" class="unit hidden absolute h-5 w-6" style="top: 82px; left: 544px; rotate: 106deg"></div>
+					<div data-value="21" class="unit hidden absolute h-5 w-6" style="top: 90px; left: 567px; rotate: 110deg"></div>
+					<div data-value="22" class="unit hidden absolute h-5 w-6" style="top: 100px; left: 591px; rotate: 114deg"></div>
+					<div data-value="23" class="unit hidden absolute h-5 w-6" style="top: 110px; left: 613px; rotate: 117deg"></div>
+					<div data-value="24" class="unit hidden absolute h-5 w-6" style="top: 122px; left: 634px; rotate: 122deg"></div>
+					<div data-value="25" class="unit hidden absolute h-5 w-6" style="top: 136px; left: 656px; rotate: 126deg"></div>
+					<div data-value="26" class="unit hidden absolute h-5 w-6" style="top: 151px; left: 677px; rotate: 129deg"></div>
+					<div data-value="27" class="unit hidden absolute h-5 w-6" style="top: 168px; left: 696px; rotate: 132deg"></div>
+					<div data-value="28" class="unit hidden absolute h-5 w-6" style="top: 185px; left: 714px; rotate: 136deg"></div>
+					<div data-value="29" class="unit hidden absolute h-5 w-6" style="top: 203px; left: 731px; rotate: 139deg"></div>
+					<div data-value="30" class="unit hidden absolute h-5 w-6" style="top: 223px; left: 747px; rotate: 142deg"></div>
+				</div>
+				<!-- nodes / lines -->
+				<div id="map" class="rounded-full border-2 border-gray-800 relative bg-contain w-[887px] h-[986px]"></div>
+			</div>
+
+			<!-- stats -->
+			<div class="flex flex-col px-3">
+				<div class="text-xl">Path of Exile</div>
+				<div class="text-lg">Sentinel Planner</div>
+				<div class="mt-6 text-gray-400 font-semibold mb-2">Code:</div>
+				<div class="flex">
+					<input type="text" id="inpCode" class="rounded border rounded-r-none py-2 px-3 outline-none border-gray-800 bg-gray-900" readonly />
+					<button type="button" id="btnCopy" class="rounded border rounded-l-none py-2 px-3 outline-none border-gray-800 bg-gray-900" data-tippy-content="Copy to clipboard">📋</button>
+				</div>
+				<div class="mt-6">
+					<span class="text-gray-400 font-semibold mb-2">Power Units:</span><br />
+					<span id="outUnits">0</span> / 30
+				</div>
+				<div class="mt-6 text-gray-400 font-semibold mb-2">Active Nodes:</div>
+				<div class="lg:max-h-[700px] overflow-auto text-sm">
+					<ul id="outNodes" class="list-disc list-inside indent-[-1.5em] pl-[2em]"></ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- scripts -->
+		<script src="process.js"></script>
+		<script src="https://unpkg.com/@popperjs/core@2"></script>
+		<script src="https://unpkg.com/tippy.js@6"></script>
+	</body>
+</html>
