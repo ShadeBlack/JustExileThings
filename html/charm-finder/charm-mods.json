@@ -1,0 +1,2422 @@
+[
+	{
+		"Name": "Deadeye's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmAccuracyIfCritInLast8Seconds",
+		"Level": 1,
+		"Stats": "(7-13)% increased Accuracy Rating if you've dealt a Critical Strike in the past 8 seconds",
+		"Dex": 1000,
+		"Lupine": 1
+	},
+	{
+		"Name": "Deadeye's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmAccuracyIfCritInLast8Seconds",
+		"Level": 60,
+		"Stats": "(14-20)% increased Accuracy Rating if you've dealt a Critical Strike in the past 8 seconds",
+		"Dex": 500,
+		"Lupine": 1
+	},
+	{
+		"Name": "Berserker's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmAddedPhysicalDamageIfCritRecently",
+		"Level": 1,
+		"Stats": "Adds (5-7) to (14-17) Physical Damage if you've dealt a Critical Strike Recently",
+		"Str": 1000,
+		"Ursine": 1
+	},
+	{
+		"Name": "Berserker's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmAddedPhysicalDamageIfCritRecently",
+		"Level": 60,
+		"Stats": "Adds (8-12) to (18-22) Physical Damage if you've dealt a Critical Strike Recently",
+		"Str": 500,
+		"Ursine": 1
+	},
+	{
+		"Name": "Assassin's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmAdditionalCriticalStrikeChanceAtMaximumPowerCharges",
+		"Level": 60,
+		"Stats": "+(0.61-1)% Critical Strike Chance while at maximum Power Charges",
+		"Dex": 250,
+		"Int": 250,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Assassin's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmAdditionalCriticalStrikeChanceAtMaximumPowerCharges",
+		"Level": 1,
+		"Stats": "+(0.4-0.6)% Critical Strike Chance while at maximum Power Charges",
+		"Dex": 500,
+		"Int": 500,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Deadeye's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmAdditionalProjectiles",
+		"Level": 81,
+		"Stats": "Skills fire an additional Projectile",
+		"Dex": 20,
+		"Lupine": 1
+	},
+	{
+		"Name": "Elementalist's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmAllDamageCanIgnite",
+		"Level": 81,
+		"Stats": "All Damage can Ignite",
+		"Int": 20,
+		"Corvine": 1
+	},
+	{
+		"Name": "Hierophant's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmArcaneSurgeOnHit",
+		"Level": 70,
+		"Stats": "Gain Arcane Surge when you or your Totems Hit an Enemy with a Spell",
+		"Str": 50,
+		"Int": 50,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Slayer's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmAreaOfEffectIfKilledRecently",
+		"Level": 60,
+		"Stats": "(8-12)% increased Area of Effect if you've Killed Recently",
+		"Str": 250,
+		"Dex": 250,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "Slayer's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmAreaOfEffectIfKilledRecently",
+		"Level": 1,
+		"Stats": "(4-7)% increased Area of Effect if you've Killed Recently",
+		"Str": 500,
+		"Dex": 500,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "Juggernaut's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmAreaOfEffectPerEnduranceCharge",
+		"Level": 1,
+		"Stats": "(3-4)% increased Area of Effect per Endurance Charge",
+		"Str": 1000,
+		"Ursine": 1
+	},
+	{
+		"Name": "Juggernaut's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmAreaOfEffectPerEnduranceCharge",
+		"Level": 60,
+		"Stats": "(5-6)% increased Area of Effect per Endurance Charge",
+		"Str": 500,
+		"Ursine": 1
+	},
+	{
+		"Name": "Occultist's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmAreaofEffectPerPowerCharge",
+		"Level": 1,
+		"Stats": "(2-3)% increased Area of Effect per Power Charge",
+		"Int": 1000,
+		"Corvine": 1
+	},
+	{
+		"Name": "Occultist's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmAreaofEffectPerPowerCharge",
+		"Level": 60,
+		"Stats": "4% increased Area of Effect per Power Charge",
+		"Int": 500,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Gladiator",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmArmourAndEvasionPerBlock",
+		"Level": 60,
+		"Stats": "+(5-6) to Armour and Evasion Rating per 1% Chance to Block Attack Damage",
+		"Str": 250,
+		"Dex": 250,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Gladiator",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmArmourAndEvasionPerBlock",
+		"Level": 1,
+		"Stats": "+(3-4) to Armour and Evasion Rating per 1% Chance to Block Attack Damage",
+		"Str": 500,
+		"Dex": 500,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Juggernaut",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmArmourAppliesToElementalDamage",
+		"Level": 83,
+		"Stats": "3% of Armour applies to Fire, Cold and Lightning Damage taken from Hits",
+		"Str": 10,
+		"Ursine": 1
+	},
+	{
+		"Name": "of the Juggernaut",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmArmourAppliesToElementalDamage",
+		"Level": 81,
+		"Stats": "2% of Armour applies to Fire, Cold and Lightning Damage taken from Hits",
+		"Str": 20,
+		"Ursine": 1
+	},
+	{
+		"Name": "Chieftain's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmAshOnHittingRareUniqueEnemy",
+		"Level": 72,
+		"Stats": "(11-20)% chance to Cover Rare or Unique Enemies in Ash for 10 Seconds on Hit",
+		"Str": 250,
+		"Ursine": 1
+	},
+	{
+		"Name": "Chieftain's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmAshOnHittingRareUniqueEnemy",
+		"Level": 45,
+		"Stats": "(5-10)% chance to Cover Rare or Unique Enemies in Ash for 10 Seconds on Hit",
+		"Str": 500,
+		"Ursine": 1
+	},
+	{
+		"Name": "of the Gladiator",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmAttackBlock",
+		"Level": 60,
+		"Stats": "+(5-6)% Chance to Block Attack Damage",
+		"Str": 250,
+		"Dex": 250,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Gladiator",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmAttackBlock",
+		"Level": 1,
+		"Stats": "+(3-4)% Chance to Block Attack Damage",
+		"Str": 500,
+		"Dex": 500,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "Slayer's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmAttackSpeedOnKillingRareUnique",
+		"Level": 60,
+		"Stats": "Gain (8-12)% increased Attack Speed for 20 seconds when you Kill a Rare or Unique Enemy",
+		"Str": 250,
+		"Dex": 250,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "Slayer's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmAttackSpeedOnKillingRareUnique",
+		"Level": 1,
+		"Stats": "Gain (4-7)% increased Attack Speed for 20 seconds when you Kill a Rare or Unique Enemy",
+		"Str": 500,
+		"Dex": 500,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Raider",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmAvoidElementalAilmentsChanceWhilePhasing",
+		"Level": 1,
+		"Stats": "(10-15)% chance to Avoid Elemental Ailments while Phasing",
+		"Dex": 1000,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Raider",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmAvoidElementalAilmentsChanceWhilePhasing",
+		"Level": 60,
+		"Stats": "(16-25)% chance to Avoid Elemental Ailments while Phasing",
+		"Dex": 500,
+		"Lupine": 1
+	},
+	{
+		"Name": "Champion's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmBannersNoReservation",
+		"Level": 45,
+		"Stats": "Banner Skills have no Reservation",
+		"Str": 250,
+		"Dex": 250,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "Gladiator's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmBleedExplode",
+		"Level": 81,
+		"Stats": "Bleeding Enemies you Kill Explode, dealing (4-5)% of their Maximum Life as Physical Damage",
+		"Str": 25,
+		"Dex": 25,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "Gladiator's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmBleedExplode",
+		"Level": 70,
+		"Stats": "Bleeding Enemies you Kill Explode, dealing (2-3)% of their Maximum Life as Physical Damage",
+		"Str": 50,
+		"Dex": 50,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Saboteur",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmBlindOnHitChance",
+		"Level": 60,
+		"Stats": "(11-15)% Global chance to Blind Enemies on hit",
+		"Dex": 250,
+		"Int": 250,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Saboteur",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmBlindOnHitChance",
+		"Level": 1,
+		"Stats": "(5-10)% Global chance to Blind Enemies on hit",
+		"Dex": 500,
+		"Int": 500,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Gladiator's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmBlindOnHitVsBleedingEnemies",
+		"Level": 60,
+		"Stats": "Attack Hits against Bleeding Enemies have (20-30)% chance to Blind",
+		"Str": 250,
+		"Dex": 250,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "Gladiator's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmBlindOnHitVsBleedingEnemies",
+		"Level": 1,
+		"Stats": "Attack Hits against Bleeding Enemies have (10-19)% chance to Blind",
+		"Str": 500,
+		"Dex": 500,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Guardian",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmBlockChanceIfAttackedRecently",
+		"Level": 60,
+		"Stats": "If you've Attacked Recently, you and nearby Allies have +(6-8)% Chance to Block Attack Damage",
+		"Str": 250,
+		"Int": 250,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Guardian",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmBlockChanceIfAttackedRecently",
+		"Level": 1,
+		"Stats": "If you've Attacked Recently, you and nearby Allies have +(4-5)% Chance to Block Attack Damage",
+		"Str": 500,
+		"Int": 500,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Saboteur",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmCannotBeBlinded",
+		"Level": 45,
+		"Stats": "Cannot be Blinded",
+		"Dex": 250,
+		"Int": 250,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Saboteur's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmChanceFor150%AreaDamage",
+		"Level": 60,
+		"Stats": "Hits have (7-10)% chance to deal 50% more Area Damage",
+		"Dex": 250,
+		"Int": 250,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Saboteur's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmChanceFor150%AreaDamage",
+		"Level": 1,
+		"Stats": "Hits have (5-6)% chance to deal 50% more Area Damage",
+		"Dex": 500,
+		"Int": 500,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Trickster's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmChanceFor25%NonChaosToAddAsChaosDamage",
+		"Level": 72,
+		"Stats": "(17-23)% chance to gain 25% of Non-Chaos Damage with Hits as Extra Chaos Damage",
+		"Dex": 125,
+		"Int": 125,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Trickster's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmChanceFor25%NonChaosToAddAsChaosDamage",
+		"Level": 45,
+		"Stats": "(7-13)% chance to gain 25% of Non-Chaos Damage with Hits as Extra Chaos Damage",
+		"Dex": 250,
+		"Int": 250,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Trickster",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmChanceForEnergyShieldRechargeOnSuppress",
+		"Level": 72,
+		"Stats": "(9-12)% chance for Energy Shield Recharge to start when you Suppress Spell Damage",
+		"Dex": 125,
+		"Int": 125,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Trickster",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmChanceForEnergyShieldRechargeOnSuppress",
+		"Level": 45,
+		"Stats": "(5-8)% chance for Energy Shield Recharge to start when you Suppress Spell Damage",
+		"Dex": 250,
+		"Int": 250,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Hierophant's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmChanceToSummonTwoTotems",
+		"Level": 60,
+		"Stats": "Skills that would Summon a Totem have (31-50)% chance to Summon two Totems instead",
+		"Str": 250,
+		"Int": 250,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Hierophant's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmChanceToSummonTwoTotems",
+		"Level": 1,
+		"Stats": "Skills that would Summon a Totem have (20-30)% chance to Summon two Totems instead",
+		"Str": 500,
+		"Int": 500,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Saboteur's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmChanceToThrow4AdditionalTraps",
+		"Level": 60,
+		"Stats": "(4-5)% chance to throw up to 4 additional Traps",
+		"Dex": 250,
+		"Int": 250,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Saboteur's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmChanceToThrow4AdditionalTraps",
+		"Level": 1,
+		"Stats": "(2-3)% chance to throw up to 4 additional Traps",
+		"Dex": 500,
+		"Int": 500,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Occultist's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmChaosExplode",
+		"Level": 70,
+		"Stats": "Cursed Enemies you or your Minions Kill have a (6-10)% chance to Explode, dealing a quarter of their maximum Life as Chaos Damage",
+		"Int": 100,
+		"Corvine": 1
+	},
+	{
+		"Name": "Occultist's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmChaosExplode",
+		"Level": 81,
+		"Stats": "Cursed Enemies you or your Minions Kill have a (11-15)% chance to Explode, dealing a quarter of their maximum Life as Chaos Damage",
+		"Int": 50,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Juggernaut",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmChaosResistancePerEnduranceCharge",
+		"Level": 1,
+		"Stats": "+(2-3)% to Chaos Resistance per Endurance Charge",
+		"Str": 1000,
+		"Ursine": 1
+	},
+	{
+		"Name": "of the Juggernaut",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmChaosResistancePerEnduranceCharge",
+		"Level": 60,
+		"Stats": "+(4-5)% to Chaos Resistance per Endurance Charge",
+		"Str": 500,
+		"Ursine": 1
+	},
+	{
+		"Name": "Trickster's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmChargeDuration",
+		"Level": 60,
+		"Stats": "(61-100)% increased Charge Duration",
+		"Dex": 250,
+		"Int": 250,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Trickster's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmChargeDuration",
+		"Level": 1,
+		"Stats": "(40-60)% increased Charge Duration",
+		"Dex": 500,
+		"Int": 500,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Elementalist",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmChillMinimumSlow",
+		"Level": 72,
+		"Stats": "Chills from your Hits always reduce Action Speed by at least (5-6)%",
+		"Int": 250,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Elementalist",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmChillMinimumSlow",
+		"Level": 45,
+		"Stats": "Chills from your Hits always reduce Action Speed by at least (3-4)%",
+		"Int": 500,
+		"Corvine": 1
+	},
+	{
+		"Name": "Inquisitor's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmConsecratedGroundDamageTaken",
+		"Level": 72,
+		"Stats": "Consecrated Ground you create applies (7-10)% increased Damage taken to Enemies",
+		"Str": 125,
+		"Int": 125,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Inquisitor's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmConsecratedGroundDamageTaken",
+		"Level": 45,
+		"Stats": "Consecrated Ground you create applies (5-6)% increased Damage taken to Enemies",
+		"Str": 250,
+		"Int": 250,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Inquisitor",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmConsecratedGroundLingerDuration",
+		"Level": 70,
+		"Stats": "Effects of Consecrated Ground you create Linger for 2 seconds",
+		"Str": 50,
+		"Int": 50,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Inquisitor",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmConsecratedGroundVsRareUnique",
+		"Level": 60,
+		"Stats": "(20-30)% chance to create Consecrated Ground when you Hit a Rare or Unique Enemy, lasting 8 seconds",
+		"Str": 250,
+		"Int": 250,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Inquisitor",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmConsecratedGroundVsRareUnique",
+		"Level": 1,
+		"Stats": "(10-19)% chance to create Consecrated Ground when you Hit a Rare or Unique Enemy, lasting 8 seconds",
+		"Str": 500,
+		"Int": 500,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Saboteur's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmCooldownRecoveryRate",
+		"Level": 81,
+		"Stats": "(9-12)% increased Cooldown Recovery Rate",
+		"Dex": 25,
+		"Int": 25,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Saboteur's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmCooldownRecoveryRate",
+		"Level": 70,
+		"Stats": "(5-8)% increased Cooldown Recovery Rate",
+		"Dex": 50,
+		"Int": 50,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Berserker's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmCorpseExplodeOnWarcry",
+		"Level": 70,
+		"Stats": "Nearby corpses Explode when you Warcry, dealing (3-4)% of their Life as Physical Damage",
+		"Str": 100,
+		"Ursine": 1
+	},
+	{
+		"Name": "Berserker's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmCorpseExplodeOnWarcry",
+		"Level": 81,
+		"Stats": "Nearby corpses Explode when you Warcry, dealing (5-6)% of their Life as Physical Damage",
+		"Str": 50,
+		"Ursine": 1
+	},
+	{
+		"Name": "Necromancer's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmCorpseLife",
+		"Level": 72,
+		"Stats": "Corpses you Spawn have (11-20)% increased Maximum Life",
+		"Int": 250,
+		"Corvine": 1
+	},
+	{
+		"Name": "Necromancer's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmCorpseLife",
+		"Level": 45,
+		"Stats": "Corpses you Spawn have (5-10)% increased Maximum Life",
+		"Int": 500,
+		"Corvine": 1
+	},
+	{
+		"Name": "Assassin's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmCriticalStrikeChanceAgainstFullLifeEnemies",
+		"Level": 60,
+		"Stats": "(130-160)% increased Critical Strike Chance against Enemies on Full Life",
+		"Dex": 250,
+		"Int": 250,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Assassin's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmCriticalStrikeChanceAgainstFullLifeEnemies",
+		"Level": 1,
+		"Stats": "(80-120)% increased Critical Strike Chance against Enemies on Full Life",
+		"Dex": 500,
+		"Int": 500,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Inquisitor's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmCriticalStrikeChanceIfNotCritRecently",
+		"Level": 60,
+		"Stats": "(71-100)% increased Critical Strike Chance if you haven't dealt a Critical Strike Recently",
+		"Str": 250,
+		"Int": 250,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Inquisitor's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmCriticalStrikeChanceIfNotCritRecently",
+		"Level": 1,
+		"Stats": "(50-70)% increased Critical Strike Chance if you haven't dealt a Critical Strike Recently",
+		"Str": 500,
+		"Int": 500,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Assassin",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmCriticalStrikeDamageCannotBeReflected",
+		"Level": 45,
+		"Stats": "Damage from your Critical Strikes cannot be Reflected",
+		"Dex": 250,
+		"Int": 250,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Assassin's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmCriticalStrikeMultiplierPerPowerCharge",
+		"Level": 60,
+		"Stats": "+(4-5)% to Critical Strike Multiplier per Power Charge",
+		"Dex": 250,
+		"Int": 250,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Assassin's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmCriticalStrikeMultiplierPerPowerCharge",
+		"Level": 1,
+		"Stats": "+(2-3)% to Critical Strike Multiplier per Power Charge",
+		"Dex": 500,
+		"Int": 500,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Assassin's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmCriticalStrikesHaveCullingStrike",
+		"Level": 45,
+		"Stats": "Critical Strikes have Culling Strike",
+		"Dex": 250,
+		"Int": 250,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Inquisitor's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmCriticalStrikesNonDamagingAilmentEffect",
+		"Level": 60,
+		"Stats": "(31-40)% increased Effect of non-Damaging Ailments you inflict with Critical Strikes",
+		"Str": 250,
+		"Int": 250,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Inquisitor's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmCriticalStrikesNonDamagingAilmentEffect",
+		"Level": 1,
+		"Stats": "(20-30)% increased Effect of non-Damaging Ailments you inflict with Critical Strikes",
+		"Str": 500,
+		"Int": 500,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Saboteur's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmCritVsBurningAndShockedEnemies",
+		"Level": 60,
+		"Stats": "+(16-25)% to Critical Strike Multiplier against Burning Enemies, (31-50)% increased Critical Strike Chance against Shocked Enemies",
+		"Dex": 250,
+		"Int": 250,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Saboteur's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmCritVsBurningAndShockedEnemies",
+		"Level": 1,
+		"Stats": "+(10-15)% to Critical Strike Multiplier against Burning Enemies, (20-30)% increased Critical Strike Chance against Shocked Enemies",
+		"Dex": 500,
+		"Int": 500,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Slayer's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmCullingStrike",
+		"Level": 45,
+		"Stats": "Culling Strike",
+		"Str": 250,
+		"Dex": 250,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "Occultist's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmCurseEffect",
+		"Level": 1,
+		"Stats": "(3-5)% increased Effect of your Curses",
+		"Int": 1000,
+		"Corvine": 1
+	},
+	{
+		"Name": "Occultist's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmCurseEffect",
+		"Level": 60,
+		"Stats": "(6-8)% increased Effect of your Curses",
+		"Int": 500,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Hierophant",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmDamageRemovedFromManaBeforeLife",
+		"Level": 81,
+		"Stats": "3% of Damage is taken from Mana before Life",
+		"Str": 25,
+		"Int": 25,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Hierophant",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmDamageRemovedFromManaBeforeLife",
+		"Level": 70,
+		"Stats": "(1-2)% of Damage is taken from Mana before Life",
+		"Str": 50,
+		"Int": 50,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Hierophant",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmDamageRemovedFromTotemLifeBeforeSelf",
+		"Level": 60,
+		"Stats": "3% of Damage from Hits is taken from your nearest Totem's Life before you",
+		"Str": 250,
+		"Int": 250,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Hierophant",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmDamageRemovedFromTotemLifeBeforeSelf",
+		"Level": 1,
+		"Stats": "(1-2)% of Damage from Hits is taken from your nearest Totem's Life before you",
+		"Str": 500,
+		"Int": 500,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Inquisitor's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmElementalPenetration",
+		"Level": 60,
+		"Stats": "Damage Penetrates (5-6)% of Enemy Elemental Resistances",
+		"Str": 250,
+		"Int": 250,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Inquisitor's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmElementalPenetration",
+		"Level": 1,
+		"Stats": "Damage Penetrates (3-4)% of Enemy Elemental Resistances",
+		"Str": 500,
+		"Int": 500,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Elementalist",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmElementalReflectImmune",
+		"Level": 45,
+		"Stats": "Cannot take Reflected Elemental Damage",
+		"Int": 500,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Necromancer",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmElementalResistancesForAuraAffectedAllies",
+		"Level": 1,
+		"Stats": "You and nearby Allies have +(10-14)% to Elemental Resistances",
+		"Int": 1000,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Necromancer",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmElementalResistancesForAuraAffectedAllies",
+		"Level": 60,
+		"Stats": "You and nearby Allies have +(15-20)% to Elemental Resistances",
+		"Int": 500,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Assassin",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmElusiveEffect",
+		"Level": 72,
+		"Stats": "(16-25)% increased Elusive Effect",
+		"Dex": 125,
+		"Int": 125,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Assassin",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmElusiveEffect",
+		"Level": 45,
+		"Stats": "(10-15)% increased Elusive Effect",
+		"Dex": 250,
+		"Int": 250,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Juggernaut's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmEnchangeChargeWhenHit",
+		"Level": 1,
+		"Stats": "(10-19)% chance to gain an Endurance Charge when you are Hit",
+		"Str": 1000,
+		"Ursine": 1
+	},
+	{
+		"Name": "Juggernaut's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmEnchangeChargeWhenHit",
+		"Level": 60,
+		"Stats": "(20-30)% chance to gain an Endurance Charge when you are Hit",
+		"Str": 500,
+		"Ursine": 1
+	},
+	{
+		"Name": "Juggernaut's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmEnduranceChargeOnStun",
+		"Level": 1,
+		"Stats": "(10-19)% chance to gain an Endurance Charge when you Stun an Enemy",
+		"Str": 1000,
+		"Ursine": 1
+	},
+	{
+		"Name": "Juggernaut's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmEnduranceChargeOnStun",
+		"Level": 60,
+		"Stats": "(20-30)% chance to gain an Endurance Charge when you Stun an Enemy",
+		"Str": 500,
+		"Ursine": 1
+	},
+	{
+		"Name": "of the Guardian",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmEnemiesInLinkBeamCannotInflictElementalAilments",
+		"Level": 45,
+		"Stats": "Enemies in your Link Beams cannot apply Elemental Ailments",
+		"Str": 250,
+		"Int": 250,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Trickster's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmEnergyShieldLeech",
+		"Level": 60,
+		"Stats": "(1.1-2)% of Damage Leeched as Energy Shield",
+		"Dex": 250,
+		"Int": 250,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Trickster's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmEnergyShieldLeech",
+		"Level": 1,
+		"Stats": "(0.5-1)% of Damage Leeched as Energy Shield",
+		"Dex": 500,
+		"Int": 500,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Occultist",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmEnergyShieldRegeneration",
+		"Level": 1,
+		"Stats": "Regenerate (1-1.5)% of Energy Shield per second",
+		"Int": 1000,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Occultist",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmEnergyShieldRegeneration",
+		"Level": 60,
+		"Stats": "Regenerate (2-3)% of Energy Shield per second",
+		"Int": 500,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Trickster",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmEvasionPerEnergyShieldOnHelmet",
+		"Level": 60,
+		"Stats": "+(3-4) to Evasion Rating per 1 Maximum Energy Shield on Equipped Helmet",
+		"Dex": 250,
+		"Int": 250,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Trickster",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmEvasionPerEnergyShieldOnHelmet",
+		"Level": 1,
+		"Stats": "+(1-2) to Evasion Rating per 1 Maximum Energy Shield on Equipped Helmet",
+		"Dex": 500,
+		"Int": 500,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Raider",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmEvasionRatingPerFrenzyCharge",
+		"Level": 1,
+		"Stats": "(3-5)% increased Evasion Rating per Frenzy Charge",
+		"Dex": 1000,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Raider",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmEvasionRatingPerFrenzyCharge",
+		"Level": 60,
+		"Stats": "(6-9)% increased Evasion Rating per Frenzy Charge",
+		"Dex": 500,
+		"Lupine": 1
+	},
+	{
+		"Name": "Elementalist's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmExposureExtraResistance",
+		"Level": 1,
+		"Stats": "Exposure you inflict applies an extra -(5-4)% to the affected Resistance",
+		"Int": 1000,
+		"Corvine": 1
+	},
+	{
+		"Name": "Elementalist's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmExposureExtraResistance",
+		"Level": 60,
+		"Stats": "Exposure you inflict applies an extra -(7-6)% to the affected Resistance",
+		"Int": 500,
+		"Corvine": 1
+	},
+	{
+		"Name": "Chieftain's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmFireExplode",
+		"Level": 70,
+		"Stats": "Enemies you or your Totems Kill have 1% chance to Explode, dealing 500% of their maximum Life as Fire Damage",
+		"Str": 100,
+		"Ursine": 1
+	},
+	{
+		"Name": "of the Pathfinder",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmFlaskChargesEvery3Seconds",
+		"Level": 81,
+		"Stats": "Flasks gain a Charge every 3 seconds",
+		"Dex": 20,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Pathfinder",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmFlaskChargesGainedFromEnemiesWithAilments",
+		"Level": 1,
+		"Stats": "Enemies you Kill that are affected by Elemental Ailments grant (15-25)% increased Flask Charges",
+		"Dex": 1000,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Pathfinder",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmFlaskChargesGainedFromEnemiesWithAilments",
+		"Level": 60,
+		"Stats": "Enemies you Kill that are affected by Elemental Ailments grant (26-40)% increased Flask Charges",
+		"Dex": 500,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Champion",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmFortifyOnMeleeHitChance",
+		"Level": 72,
+		"Stats": "Melee Hits have (11-20)% chance to Fortify",
+		"Str": 125,
+		"Dex": 125,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Champion",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmFortifyOnMeleeHitChance",
+		"Level": 45,
+		"Stats": "Melee Hits have (5-10)% chance to Fortify",
+		"Str": 250,
+		"Dex": 250,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "Raider's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmFrenzyOnHItChance",
+		"Level": 72,
+		"Stats": "(6-8)% chance to gain a Frenzy Charge on Hit",
+		"Dex": 250,
+		"Lupine": 1
+	},
+	{
+		"Name": "Raider's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmFrenzyOnHItChance",
+		"Level": 45,
+		"Stats": "(3-5)% chance to gain a Frenzy Charge on Hit",
+		"Dex": 500,
+		"Lupine": 1
+	},
+	{
+		"Name": "Champion's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmGainAdrenalineOnReachingLowLife",
+		"Level": 70,
+		"Stats": "Gain Adrenaline for 4 seconds when you reach Low Life",
+		"Str": 50,
+		"Dex": 50,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Elementalist",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmGolemBuffEffect",
+		"Level": 1,
+		"Stats": "(15-20)% increased Effect of Buffs granted by your Golems",
+		"Int": 1000,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Elementalist",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmGolemBuffEffect",
+		"Level": 60,
+		"Stats": "(21-35)% increased Effect of Buffs granted by your Golems",
+		"Int": 500,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Chieftain",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmIgniteDurationOnSelf",
+		"Level": 1,
+		"Stats": "(20-30)% reduced Ignite Duration on you",
+		"Str": 1000,
+		"Ursine": 1
+	},
+	{
+		"Name": "of the Chieftain",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmIgniteDurationOnSelf",
+		"Level": 60,
+		"Stats": "(31-50)% reduced Ignite Duration on you",
+		"Str": 500,
+		"Ursine": 1
+	},
+	{
+		"Name": "Elementalist's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmIgniteFreezeShockChance",
+		"Level": 1,
+		"Stats": "(10-15)% chance to Freeze, Shock and Ignite",
+		"Int": 1000,
+		"Corvine": 1
+	},
+	{
+		"Name": "Elementalist's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmIgniteFreezeShockChance",
+		"Level": 60,
+		"Stats": "(16-25)% chance to Freeze, Shock and Ignite",
+		"Int": 500,
+		"Corvine": 1
+	},
+	{
+		"Name": "Occultist's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmIgnoreHexproofEnemies",
+		"Level": 45,
+		"Stats": "Your Hexes can affect Hexproof Enemies",
+		"Int": 500,
+		"Corvine": 1
+	},
+	{
+		"Name": "Champion's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmImpaleLastsForExtraHits",
+		"Level": 81,
+		"Stats": "Impales you inflict last 1 additional Hit",
+		"Str": 10,
+		"Dex": 10,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Berserker",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmLeechIfKilledRecently",
+		"Level": 1,
+		"Stats": "1% of Attack Damage Leeched as Life and Mana if you've Killed Recently",
+		"Str": 1000,
+		"Ursine": 1
+	},
+	{
+		"Name": "of the Berserker",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmLeechIfKilledRecently",
+		"Level": 60,
+		"Stats": "2% of Attack Damage Leeched as Life and Mana if you've Killed Recently",
+		"Str": 500,
+		"Ursine": 1
+	},
+	{
+		"Name": "of the Berserker",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmLeechPercentIsInstant",
+		"Level": 72,
+		"Stats": "(6-8)% of Leech is Instant",
+		"Str": 250,
+		"Ursine": 1
+	},
+	{
+		"Name": "of the Berserker",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmLeechPercentIsInstant",
+		"Level": 45,
+		"Stats": "(3-5)% of Leech is Instant",
+		"Str": 500,
+		"Ursine": 1
+	},
+	{
+		"Name": "of the Trickster",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmLifeManaESOnKill",
+		"Level": 60,
+		"Stats": "Recover 2% of Life on Kill, Recover 2% of Mana on Kill, Recover 2% of Energy Shield on Kill",
+		"Dex": 250,
+		"Int": 250,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Trickster",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmLifeManaESOnKill",
+		"Level": 1,
+		"Stats": "Recover 1% of Life on Kill, Recover 1% of Mana on Kill, Recover 1% of Energy Shield on Kill",
+		"Dex": 500,
+		"Int": 500,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Deadeye",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmLifeOnHitVsBleedingEnemies",
+		"Level": 1,
+		"Stats": "Gain (6-10) Life per Bleeding Enemy Hit",
+		"Dex": 1000,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Deadeye",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmLifeOnHitVsBleedingEnemies",
+		"Level": 60,
+		"Stats": "Gain (11-20) Life per Bleeding Enemy Hit",
+		"Dex": 500,
+		"Lupine": 1
+	},
+	{
+		"Name": "Guardian's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmLifeRegenerationForASecondEvery10Seconds",
+		"Level": 60,
+		"Stats": "Every 4 seconds, Regenerate 20% of Life over one second",
+		"Str": 250,
+		"Int": 250,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Guardian's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmLifeRegenerationForASecondEvery10Seconds",
+		"Level": 1,
+		"Stats": "Every 4 seconds, Regenerate 10% of Life over one second",
+		"Str": 500,
+		"Int": 500,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Juggernaut",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmLIfeRegenerationRate",
+		"Level": 72,
+		"Stats": "(16-20)% increased Life Regeneration rate",
+		"Str": 250,
+		"Ursine": 1
+	},
+	{
+		"Name": "of the Juggernaut",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmLIfeRegenerationRate",
+		"Level": 45,
+		"Stats": "(10-15)% increased Life Regeneration rate",
+		"Str": 500,
+		"Ursine": 1
+	},
+	{
+		"Name": "Pathfinder's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmMagicUtilityFlaskEffect",
+		"Level": 70,
+		"Stats": "Magic Utility Flasks applied to you have (6-10)% increased Effect",
+		"Dex": 100,
+		"Lupine": 1
+	},
+	{
+		"Name": "Pathfinder's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmMagicUtilityFlaskEffect",
+		"Level": 81,
+		"Stats": "Magic Utility Flasks applied to you have (11-15)% increased Effect",
+		"Dex": 50,
+		"Lupine": 1
+	},
+	{
+		"Name": "Gladiator's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmMaimOnHitVsBlindedEnemies",
+		"Level": 60,
+		"Stats": "Attack Hits against Blinded Enemies have (20-30)% chance to Maim",
+		"Str": 250,
+		"Dex": 250,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "Gladiator's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmMaimOnHitVsBlindedEnemies",
+		"Level": 1,
+		"Stats": "Attack Hits against Blinded Enemies have (10-19)% chance to Maim",
+		"Str": 500,
+		"Dex": 500,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "Hierophant's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmManaReservationEfficiency",
+		"Level": 72,
+		"Stats": "(8-12)% increased Mana Reservation Efficiency of Skills",
+		"Str": 125,
+		"Int": 125,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Hierophant's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmManaReservationEfficiency",
+		"Level": 45,
+		"Stats": "(4-7)% increased Mana Reservation Efficiency of Skills",
+		"Str": 250,
+		"Int": 250,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Hierophant",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmManaToAddAsExtraEnergyShield",
+		"Level": 60,
+		"Stats": "Gain (4-5)% of Maximum Mana as Extra Maximum Energy Shield",
+		"Str": 250,
+		"Int": 250,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Hierophant",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmManaToAddAsExtraEnergyShield",
+		"Level": 1,
+		"Stats": "Gain (2-3)% of Maximum Mana as Extra Maximum Energy Shield",
+		"Str": 500,
+		"Int": 500,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Deadeye's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmMarkEffect",
+		"Level": 1,
+		"Stats": "(10-15)% increased Effect of your Marks",
+		"Dex": 1000,
+		"Lupine": 1
+	},
+	{
+		"Name": "Deadeye's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmMarkEffect",
+		"Level": 60,
+		"Stats": "(16-25)% increased Effect of your Marks",
+		"Dex": 500,
+		"Lupine": 1
+	},
+	{
+		"Name": "Slayer's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmMaximumAmountPerLifeLeech",
+		"Level": 72,
+		"Stats": "(21-30)% increased Maximum Recovery per Life Leech",
+		"Str": 125,
+		"Dex": 125,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "Slayer's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmMaximumAmountPerLifeLeech",
+		"Level": 45,
+		"Stats": "(10-20)% increased Maximum Recovery per Life Leech",
+		"Str": 250,
+		"Dex": 250,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Gladiator",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmMaximumBlock",
+		"Level": 72,
+		"Stats": "+3% to maximum Chance to Block Attack Damage",
+		"Str": 125,
+		"Dex": 125,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Gladiator",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmMaximumBlock",
+		"Level": 45,
+		"Stats": "+(1-2)% to maximum Chance to Block Attack Damage",
+		"Str": 250,
+		"Dex": 250,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Chieftain",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmMaximumFireDamageResistance",
+		"Level": 72,
+		"Stats": "+2% to maximum Fire Resistance",
+		"Str": 250,
+		"Ursine": 1
+	},
+	{
+		"Name": "of the Chieftain",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmMaximumFireDamageResistance",
+		"Level": 45,
+		"Stats": "+1% to maximum Fire Resistance",
+		"Str": 500,
+		"Ursine": 1
+	},
+	{
+		"Name": "Berserker's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmMaximumRage",
+		"Level": 1,
+		"Stats": "+(2-3) to Maximum Rage",
+		"Str": 1000,
+		"Ursine": 1
+	},
+	{
+		"Name": "Berserker's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmMaximumRage",
+		"Level": 60,
+		"Stats": "+(4-5) to Maximum Rage",
+		"Str": 500,
+		"Ursine": 1
+	},
+	{
+		"Name": "Saboteur's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmMineAuraEffect",
+		"Level": 60,
+		"Stats": "(31-50)% increased Effect of Auras from Mines",
+		"Dex": 250,
+		"Int": 250,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Saboteur's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmMineAuraEffect",
+		"Level": 1,
+		"Stats": "(20-30)% increased Effect of Auras from Mines",
+		"Dex": 500,
+		"Int": 500,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Hierophant",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmMinimumEnduranceAndPowerCharges",
+		"Level": 70,
+		"Stats": "+1 to Minimum Endurance Charges, +1 to Minimum Power Charges",
+		"Str": 50,
+		"Int": 50,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Necromancer's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmMinionPhysicalDamageBasedOffHelmetEnergyShield",
+		"Level": 72,
+		"Stats": "Minions gain Added Physical Damage equal to (6-10)% of Maximum Energy Shield on your Equipped Helmet",
+		"Int": 250,
+		"Corvine": 1
+	},
+	{
+		"Name": "Necromancer's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmMinionPhysicalDamageBasedOffHelmetEnergyShield",
+		"Level": 45,
+		"Stats": "Minions gain Added Physical Damage equal to (3-5)% of Maximum Energy Shield on your Equipped Helmet",
+		"Int": 500,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Necromancer",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmMinionPhysicalDamageReduction",
+		"Level": 1,
+		"Stats": "Minions have (5-8)% additional Physical Damage Reduction",
+		"Int": 1000,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Necromancer",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmMinionPhysicalDamageReduction",
+		"Level": 60,
+		"Stats": "Minions have (9-12)% additional Physical Damage Reduction",
+		"Int": 500,
+		"Corvine": 1
+	},
+	{
+		"Name": "Necromancer's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmMinionUnholyMightChance",
+		"Level": 1,
+		"Stats": "Minions have (10-19)% chance to gain Unholy Might for 4 seconds on Kill",
+		"Int": 1000,
+		"Corvine": 1
+	},
+	{
+		"Name": "Necromancer's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmMinionUnholyMightChance",
+		"Level": 60,
+		"Stats": "Minions have (20-30)% chance to gain Unholy Might for 4 seconds on Kill",
+		"Int": 500,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Deadeye",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmMirageArcherDuration",
+		"Level": 1,
+		"Stats": "(30-50)% increased Mirage Archer Duration",
+		"Dex": 1000,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Deadeye",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmMirageArcherDuration",
+		"Level": 60,
+		"Stats": "(51-100)% increased Mirage Archer Duration",
+		"Dex": 500,
+		"Lupine": 1
+	},
+	{
+		"Name": "Juggernaut's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmMovementSpeedCannotBeBelowBase",
+		"Level": 70,
+		"Stats": "Movement Speed cannot be modified to below base value",
+		"Str": 100,
+		"Ursine": 1
+	},
+	{
+		"Name": "Raider's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmMovementSpeedPerFrenzyCharge",
+		"Level": 70,
+		"Stats": "2% increased Movement Speed per Frenzy Charge",
+		"Dex": 100,
+		"Lupine": 1
+	},
+	{
+		"Name": "Guardian's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmNearbyAlliesHaveOnslaughtIfYouHaveAtLeast5Nearby",
+		"Level": 45,
+		"Stats": "While there are at least five nearby Allies, you and nearby Allies have Onslaught",
+		"Str": 250,
+		"Int": 250,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Occultist",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmNearbyEnemiesAreChilled",
+		"Level": 70,
+		"Stats": "Nearby Enemies are Chilled",
+		"Int": 100,
+		"Corvine": 1
+	},
+	{
+		"Name": "Guardian's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmNearbyEnemiesCannotGainCharges",
+		"Level": 45,
+		"Stats": "Nearby Enemies cannot gain Power, Frenzy or Endurance Charges",
+		"Str": 250,
+		"Int": 250,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Deadeye's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmNoBarrageSpread",
+		"Level": 45,
+		"Stats": "Projectile Barrages have no spread",
+		"Dex": 500,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Assassin",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmNoExtraDamageFromCriticalStrikesIfElusive",
+		"Level": 70,
+		"Stats": "You take no Extra Damage from Critical Strikes while Elusive",
+		"Dex": 50,
+		"Int": 50,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Hierophant's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmNonDamagingAilmentEffectOnSelfWithArcaneSurge",
+		"Level": 60,
+		"Stats": "Non-Damaging Ailments have (40-31)% reduced Effect on you while you have Arcane Surge",
+		"Str": 250,
+		"Int": 250,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Hierophant's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmNonDamagingAilmentEffectOnSelfWithArcaneSurge",
+		"Level": 1,
+		"Stats": "Non-Damaging Ailments have (30-20)% reduced Effect on you while you have Arcane Surge",
+		"Str": 500,
+		"Int": 500,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Necromancer's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmOfferingEffect",
+		"Level": 1,
+		"Stats": "Your Offerings have (15-20)% increased Effect on you",
+		"Int": 1000,
+		"Corvine": 1
+	},
+	{
+		"Name": "Necromancer's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmOfferingEffect",
+		"Level": 60,
+		"Stats": "Your Offerings have (21-30)% increased Effect on you",
+		"Int": 500,
+		"Corvine": 1
+	},
+	{
+		"Name": "Raider's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmOnslaughtEffect",
+		"Level": 1,
+		"Stats": "(15-25)% increased Effect of Onslaught on you",
+		"Dex": 1000,
+		"Lupine": 1
+	},
+	{
+		"Name": "Raider's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmOnslaughtEffect",
+		"Level": 60,
+		"Stats": "(26-40)% increased Effect of Onslaught on you",
+		"Dex": 500,
+		"Lupine": 1
+	},
+	{
+		"Name": "Raider's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmOnslaughtOnKillChance",
+		"Level": 1,
+		"Stats": "(10-15)% chance to gain Onslaught for 4 seconds on Kill",
+		"Dex": 1000,
+		"Lupine": 1
+	},
+	{
+		"Name": "Raider's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmOnslaughtOnKillChance",
+		"Level": 60,
+		"Stats": "(16-25)% chance to gain Onslaught for 4 seconds on Kill",
+		"Dex": 500,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Slayer",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmOverkillLeech",
+		"Level": 60,
+		"Stats": "(8-12)% of Overkill Damage is Leeched as Life",
+		"Str": 250,
+		"Dex": 250,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Slayer",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmOverkillLeech",
+		"Level": 1,
+		"Stats": "(4-7)% of Overkill Damage is Leeched as Life",
+		"Str": 500,
+		"Dex": 500,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "Gladiator's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmOverwhelmIfBlockedinPast20Seconds",
+		"Level": 1,
+		"Stats": "Hits ignore Enemy Monster Physical Damage Reduction if you've Blocked in the past 20 seconds",
+		"Str": 500,
+		"Dex": 500,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Raider",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmPhasingOnKillChance",
+		"Level": 1,
+		"Stats": "(10-15)% chance to gain Phasing for 4 seconds on Kill",
+		"Dex": 1000,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Raider",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmPhasingOnKillChance",
+		"Level": 60,
+		"Stats": "(16-25)% chance to gain Phasing for 4 seconds on Kill",
+		"Dex": 500,
+		"Lupine": 1
+	},
+	{
+		"Name": "Pathfinder's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmPhysicalDamageAsRandomElement",
+		"Level": 1,
+		"Stats": "Gain (5-8)% of Physical Damage as Extra Damage of a random Element",
+		"Dex": 1000,
+		"Lupine": 1
+	},
+	{
+		"Name": "Pathfinder's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmPhysicalDamageAsRandomElement",
+		"Level": 60,
+		"Stats": "Gain (9-12)% of Physical Damage as Extra Damage of a random Element",
+		"Dex": 500,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Slayer",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmPhysicalReflectImmune",
+		"Level": 45,
+		"Stats": "Cannot take Reflected Physical Damage",
+		"Str": 250,
+		"Dex": 250,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "Assassin's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmPoisonDurationPerPoisonAppliedRecently",
+		"Level": 60,
+		"Stats": "3% increased Poison Duration for each Poison you have inflicted Recently, up to a maximum of 100%",
+		"Dex": 250,
+		"Int": 250,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Assassin's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmPoisonDurationPerPoisonAppliedRecently",
+		"Level": 1,
+		"Stats": "(1-2)% increased Poison Duration for each Poison you have inflicted Recently, up to a maximum of 100%",
+		"Dex": 500,
+		"Int": 500,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Assassin's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmPowerChargeOnCriticalStrike",
+		"Level": 60,
+		"Stats": "(16-25)% chance to gain a Power Charge on Critical Strike",
+		"Dex": 250,
+		"Int": 250,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Assassin's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmPowerChargeOnCriticalStrike",
+		"Level": 1,
+		"Stats": "(10-15)% chance to gain a Power Charge on Critical Strike",
+		"Dex": 500,
+		"Int": 500,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Deadeye's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmProjectileChainFromTerrainChance",
+		"Level": 72,
+		"Stats": "Projectiles have (14-20)% chance to be able to Chain when colliding with terrain",
+		"Dex": 250,
+		"Lupine": 1
+	},
+	{
+		"Name": "Deadeye's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmProjectileChainFromTerrainChance",
+		"Level": 45,
+		"Stats": "Projectiles have (7-13)% chance to be able to Chain when colliding with terrain",
+		"Dex": 500,
+		"Lupine": 1
+	},
+	{
+		"Name": "Deadeye's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmProjectileDamageWithDistanceTravelled",
+		"Level": 1,
+		"Stats": "Projectiles gain Damage as they travel farther, dealing up to (25-40)% increased Damage with Hits to targets",
+		"Dex": 1000,
+		"Lupine": 1
+	},
+	{
+		"Name": "Deadeye's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmProjectileDamageWithDistanceTravelled",
+		"Level": 60,
+		"Stats": "Projectiles gain Damage as they travel farther, dealing up to (41-60)% increased Damage with Hits to targets",
+		"Dex": 500,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Trickster",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmRecover10PercentManaOnSkillUseChance",
+		"Level": 60,
+		"Stats": "(7-10)% chance to Recover 10% of Mana when you use a Skill",
+		"Dex": 250,
+		"Int": 250,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Trickster",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmRecover10PercentManaOnSkillUseChance",
+		"Level": 1,
+		"Stats": "(4-6)% chance to Recover 10% of Mana when you use a Skill",
+		"Dex": 500,
+		"Int": 500,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Champion",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmRecoverBannerStagesOnPlacingBanner",
+		"Level": 60,
+		"Stats": "When you create a Banner, it gains (16-25)% of the Stages of your placed Banner",
+		"Str": 250,
+		"Dex": 250,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Champion",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmRecoverBannerStagesOnPlacingBanner",
+		"Level": 1,
+		"Stats": "When you create a Banner, it gains (10-15)% of the Stages of your placed Banner",
+		"Str": 500,
+		"Dex": 500,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Pathfinder",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmRecoverLifeOnFlaskUse",
+		"Level": 72,
+		"Stats": "Recover (4-5)% of Life when you use a Flask",
+		"Dex": 250,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Pathfinder",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmRecoverLifeOnFlaskUse",
+		"Level": 45,
+		"Stats": "Recover (2-3)% of Life when you use a Flask",
+		"Dex": 500,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Necromancer",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmRegenerateEnergyShieldOnConsumeCorpse",
+		"Level": 1,
+		"Stats": "Regenerate (2-3)% of Energy Shield over 2 seconds when you Consume a corpse",
+		"Int": 1000,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Necromancer",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmRegenerateEnergyShieldOnConsumeCorpse",
+		"Level": 60,
+		"Stats": "Regenerate (4-5)% of Energy Shield over 2 seconds when you Consume a corpse",
+		"Int": 500,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Necromancer",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmRegenerateManaOnConsumeCorpse",
+		"Level": 1,
+		"Stats": "Regenerate (2-3)% of Mana over 2 seconds when you Consume a corpse",
+		"Int": 1000,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Necromancer",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmRegenerateManaOnConsumeCorpse",
+		"Level": 60,
+		"Stats": "Regenerate (4-5)% of Mana over 2 seconds when you Consume a corpse",
+		"Int": 500,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Pathfinder",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmRemoveBleedOnFlaskUse",
+		"Level": 45,
+		"Stats": "Removes Bleeding when you use a Flask",
+		"Dex": 500,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Guardian",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmRemoveCursesAndAilmentsEvery10seconds",
+		"Level": 45,
+		"Stats": "Every 4 seconds, remove Curses and Elemental Ailments from you",
+		"Str": 250,
+		"Int": 250,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Guardian's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmReservedManaGrantedAsArmour",
+		"Level": 72,
+		"Stats": "Grants Armour equal to (5-6)% of your Reserved Mana to you and nearby Allies",
+		"Str": 125,
+		"Int": 125,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Guardian's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmReservedManaGrantedAsArmour",
+		"Level": 45,
+		"Stats": "Grants Armour equal to (3-4)% of your Reserved Mana to you and nearby Allies",
+		"Str": 250,
+		"Int": 250,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Elementalist's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmShockMinimumDamageIncrease",
+		"Level": 72,
+		"Stats": "Shocks from your Hits always increase Damage taken by at least (8-10)%",
+		"Int": 250,
+		"Corvine": 1
+	},
+	{
+		"Name": "Elementalist's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmShockMinimumDamageIncrease",
+		"Level": 45,
+		"Stats": "Shocks from your Hits always increase Damage taken by at least (5-7)%",
+		"Int": 500,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Guardian",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmSpellBlockChanceIfCastSpellRecently",
+		"Level": 60,
+		"Stats": "If you've Cast a Spell Recently, you and nearby Allies have +(6-8)% Chance to Block Spell Damage",
+		"Str": 250,
+		"Int": 250,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Guardian",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmSpellBlockChanceIfCastSpellRecently",
+		"Level": 1,
+		"Stats": "If you've Cast a Spell Recently, you and nearby Allies have +(4-5)% Chance to Block Spell Damage",
+		"Str": 500,
+		"Int": 500,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Trickster",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmSpellDamageSuppressedOnFullEnergyShield",
+		"Level": 81,
+		"Stats": "Prevent +(5-6)% of Suppressed Spell Damage while on Full Energy Shield",
+		"Dex": 25,
+		"Int": 25,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Trickster",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmSpellDamageSuppressedOnFullEnergyShield",
+		"Level": 70,
+		"Stats": "Prevent +(3-4)% of Suppressed Spell Damage while on Full Energy Shield",
+		"Dex": 50,
+		"Int": 50,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Occultist",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmSpellHinderOnHitChance",
+		"Level": 1,
+		"Stats": "(10-19)% chance to Hinder Enemies on Hit with Spells",
+		"Int": 1000,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Occultist",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmSpellHinderOnHitChance",
+		"Level": 60,
+		"Stats": "(20-30)% chance to Hinder Enemies on Hit with Spells",
+		"Int": 500,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Raider",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmSpellSuppressionChance",
+		"Level": 1,
+		"Stats": "+(5-9)% chance to Suppress Spell Damage",
+		"Dex": 1000,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Raider",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmSpellSuppressionChance",
+		"Level": 60,
+		"Stats": "+(10-15)% chance to Suppress Spell Damage",
+		"Dex": 500,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Inquisitor",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmStrengthAndIntelligence",
+		"Level": 60,
+		"Stats": "+(31-40) to Strength and Intelligence",
+		"Str": 250,
+		"Int": 250,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Inquisitor",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmStrengthAndIntelligence",
+		"Level": 1,
+		"Stats": "+(20-30) to Strength and Intelligence",
+		"Str": 500,
+		"Int": 500,
+		"Ursine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Chieftain's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmStrengthPercent",
+		"Level": 1,
+		"Stats": "(3-5)% increased Strength",
+		"Str": 1000,
+		"Ursine": 1
+	},
+	{
+		"Name": "Chieftain's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmStrengthPercent",
+		"Level": 60,
+		"Stats": "(6-8)% increased Strength",
+		"Str": 500,
+		"Ursine": 1
+	},
+	{
+		"Name": "of the Gladiator",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmStunImmuneAgainstBlockedHits",
+		"Level": 45,
+		"Stats": "Cannot be Stunned by Hits you Block",
+		"Str": 250,
+		"Dex": 250,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Champion",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmStunImmuneWhileFortified",
+		"Level": 70,
+		"Stats": "Cannot be Stunned while Fortified",
+		"Str": 50,
+		"Dex": 50,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Slayer",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmStunImmuneWhileLeeching",
+		"Level": 70,
+		"Stats": "Cannot be Stunned while Leeching",
+		"Str": 50,
+		"Dex": 50,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Berserker",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmStunImmuneWith25Rage",
+		"Level": 45,
+		"Stats": "Cannot be Stunned while you have at least 25 Rage",
+		"Str": 500,
+		"Ursine": 1
+	},
+	{
+		"Name": "of the Saboteur",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmTakeHalfAreaDamageChance",
+		"Level": 72,
+		"Stats": "(7-10)% chance to take 50% less Area Damage from Hits",
+		"Dex": 125,
+		"Int": 125,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "of the Saboteur",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmTakeHalfAreaDamageChance",
+		"Level": 45,
+		"Stats": "(5-6)% chance to take 50% less Area Damage from Hits",
+		"Dex": 250,
+		"Int": 250,
+		"Lupine": 1,
+		"Corvine": 1
+	},
+	{
+		"Name": "Champion's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmTauntOnHitChance",
+		"Level": 60,
+		"Stats": "(20-30)% chance to Taunt on Hit",
+		"Str": 250,
+		"Dex": 250,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "Champion's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmTauntOnHitChance",
+		"Level": 1,
+		"Stats": "(10-19)% chance to Taunt on Hit",
+		"Str": 500,
+		"Dex": 500,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "of the Chieftain",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmTotemRecoup",
+		"Level": 1,
+		"Stats": "Recoup (5-7)% of Damage Taken by your Totems as Life",
+		"Str": 1000,
+		"Ursine": 1
+	},
+	{
+		"Name": "of the Chieftain",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmTotemRecoup",
+		"Level": 60,
+		"Stats": "Recoup (8-12)% of Damage Taken by your Totems as Life",
+		"Str": 500,
+		"Ursine": 1
+	},
+	{
+		"Name": "of the Chieftain",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmTotemTauntEnemiesWhenSummoned",
+		"Level": 45,
+		"Stats": "Totems Taunt Enemies around them for 2 seconds when Summoned",
+		"Str": 500,
+		"Ursine": 1
+	},
+	{
+		"Name": "of the Slayer",
+		"Affix": "Suffix",
+		"Groups": "AnimalCharmUnaffectedbyBleedingWhileLeeching",
+		"Level": 70,
+		"Stats": "You are Unaffected by Bleeding while Leeching",
+		"Str": 50,
+		"Dex": 50,
+		"Ursine": 1,
+		"Lupine": 1
+	},
+	{
+		"Name": "Berserker's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmWarcriesGrantRage",
+		"Level": 1,
+		"Stats": "Warcries grant (2-3) Rage per 5 Power if you have less than 25 Rage",
+		"Str": 1000,
+		"Ursine": 1
+	},
+	{
+		"Name": "Berserker's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmWarcriesGrantRage",
+		"Level": 60,
+		"Stats": "Warcries grant (4-5) Rage per 5 Power if you have less than 25 Rage",
+		"Str": 500,
+		"Ursine": 1
+	},
+	{
+		"Name": "Pathfinder's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmWitheredEffect",
+		"Level": 1,
+		"Stats": "(7-13)% increased Effect of Withered",
+		"Dex": 1000,
+		"Lupine": 1
+	},
+	{
+		"Name": "Pathfinder's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmWitheredEffect",
+		"Level": 60,
+		"Stats": "(14-20)% increased Effect of Withered",
+		"Dex": 500,
+		"Lupine": 1
+	},
+	{
+		"Name": "Pathfinder's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmWitheredOnHitChance",
+		"Level": 72,
+		"Stats": "(11-15)% chance to inflict Withered for 2 seconds on Hit",
+		"Dex": 250,
+		"Lupine": 1
+	},
+	{
+		"Name": "Pathfinder's",
+		"Affix": "Prefix",
+		"Groups": "AnimalCharmWitheredOnHitChance",
+		"Level": 45,
+		"Stats": "(6-10)% chance to inflict Withered for 2 seconds on Hit",
+		"Dex": 500,
+		"Lupine": 1
+	}
+]
