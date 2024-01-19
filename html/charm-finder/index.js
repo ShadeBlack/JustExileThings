@@ -5,6 +5,18 @@ document.addEventListener("DOMContentLoaded", () => {
 		.then((r) => r.json())
 		.then((d) => populateTables(d))
 		.catch((e) => console.error("Error fetching JSON:", e));
+
+	// search input
+	let si = document.getElementById("inpSearch");
+	si.addEventListener("input", () => {
+		let ae = document.querySelectorAll(".affix");
+		let st = si.value.toLowerCase();
+		ae.forEach((a) => {
+			const ds = a.getAttribute("data-stats").toLowerCase();
+			if (ds.includes(st)) a.classList.remove("opacity-10");
+			else a.classList.add("opacity-10");
+		});
+	});
 });
 
 function populateTables(d) {
@@ -65,8 +77,14 @@ function populateTables(d) {
 				tn = ena;
 			}
 
+			// data attributes
+			let da = Object.entries(o)
+				.filter(([k, v]) => v !== null) // Exclude null values
+				.map(([k, v]) => `data-${k.toLowerCase()}="${v}"`)
+				.join(" ");
+
 			// element
-			let r = `<div class='affix border ${bt0} px-2 py-1 cursor-pointer even:bg-gray-700 odd:bg-gray-800 border-gray-600 text-sm hover:bg-gray-500'>${est}</div>`;
+			let r = `<div class='affix border ${bt0} px-2 py-1 cursor-pointer even:bg-gray-700 odd:bg-gray-800 border-gray-600 text-sm hover:bg-gray-500' ${da}>${est}</div>`;
 			container.innerHTML += r;
 		});
 	}
@@ -75,7 +93,8 @@ function populateTables(d) {
 	let ae = document.querySelectorAll(".affix");
 	ae.forEach((e) => {
 		e.addEventListener("click", (e) => {
-			console.log(e);
+			let ct = e.currentTarget;
+			console.log(ct);
 		});
 	});
 }
