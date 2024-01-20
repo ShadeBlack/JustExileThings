@@ -1,5 +1,6 @@
 [
 	{
+		"ID": 1381557885,
 		"Name": "Deadeye's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmAccuracyIfCritInLast8Seconds",
@@ -9,6 +10,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 1381557885,
 		"Name": "Deadeye's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmAccuracyIfCritInLast8Seconds",
@@ -18,6 +20,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 2723101291,
 		"Name": "Berserker's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmAddedPhysicalDamageIfCritRecently",
@@ -27,6 +30,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 2723101291,
 		"Name": "Berserker's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmAddedPhysicalDamageIfCritRecently",
@@ -36,6 +40,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 1166971727,
 		"Name": "Assassin's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmAdditionalCriticalStrikeChanceAtMaximumPowerCharges",
@@ -47,6 +52,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 1166971727,
 		"Name": "Assassin's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmAdditionalCriticalStrikeChanceAtMaximumPowerCharges",
@@ -58,6 +64,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 74338099,
 		"Name": "Deadeye's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmAdditionalProjectiles",
@@ -67,6 +74,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 1369840970,
 		"Name": "Elementalist's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmAllDamageCanIgnite",
@@ -76,6 +84,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 4286031492,
 		"Name": "Hierophant's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmArcaneSurgeOnHit",
@@ -87,6 +96,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3481736410,
 		"Name": "Slayer's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmAreaOfEffectIfKilledRecently",
@@ -98,6 +108,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 3481736410,
 		"Name": "Slayer's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmAreaOfEffectIfKilledRecently",
@@ -109,6 +120,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 2448279015,
 		"Name": "Juggernaut's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmAreaOfEffectPerEnduranceCharge",
@@ -118,6 +130,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 2448279015,
 		"Name": "Juggernaut's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmAreaOfEffectPerEnduranceCharge",
@@ -127,6 +140,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 3094501804,
 		"Name": "Occultist's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmAreaofEffectPerPowerCharge",
@@ -136,6 +150,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3094501804,
 		"Name": "Occultist's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmAreaofEffectPerPowerCharge",
@@ -145,6 +160,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 2818854203,
 		"Name": "of the Gladiator",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmArmourAndEvasionPerBlock",
@@ -156,6 +172,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 2818854203,
 		"Name": "of the Gladiator",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmArmourAndEvasionPerBlock",
@@ -167,6 +184,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 3362812763,
 		"Name": "of the Juggernaut",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmArmourAppliesToElementalDamage",
@@ -176,6 +194,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 3362812763,
 		"Name": "of the Juggernaut",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmArmourAppliesToElementalDamage",
@@ -185,6 +204,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 240642724,
 		"Name": "Chieftain's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmAshOnHittingRareUniqueEnemy",
@@ -194,6 +214,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 240642724,
 		"Name": "Chieftain's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmAshOnHittingRareUniqueEnemy",
@@ -203,6 +224,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 2530372417,
 		"Name": "of the Gladiator",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmAttackBlock",
@@ -214,6 +236,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 2530372417,
 		"Name": "of the Gladiator",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmAttackBlock",
@@ -225,6 +248,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 3243270997,
 		"Name": "Slayer's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmAttackSpeedOnKillingRareUnique",
@@ -236,6 +260,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 3243270997,
 		"Name": "Slayer's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmAttackSpeedOnKillingRareUnique",
@@ -247,6 +272,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 115351487,
 		"Name": "of the Raider",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmAvoidElementalAilmentsChanceWhilePhasing",
@@ -256,6 +282,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 115351487,
 		"Name": "of the Raider",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmAvoidElementalAilmentsChanceWhilePhasing",
@@ -265,6 +292,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 2384457007,
 		"Name": "Champion's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmBannersNoReservation",
@@ -276,6 +304,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 3133323410,
 		"Name": "Gladiator's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmBleedExplode",
@@ -287,6 +316,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 3133323410,
 		"Name": "Gladiator's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmBleedExplode",
@@ -298,6 +328,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 2221570601,
 		"Name": "of the Saboteur",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmBlindOnHitChance",
@@ -309,6 +340,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 2221570601,
 		"Name": "of the Saboteur",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmBlindOnHitChance",
@@ -320,6 +352,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 4204320922,
 		"Name": "Gladiator's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmBlindOnHitVsBleedingEnemies",
@@ -331,6 +364,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 4204320922,
 		"Name": "Gladiator's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmBlindOnHitVsBleedingEnemies",
@@ -342,6 +376,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 1453771408,
 		"Name": "of the Guardian",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmBlockChanceIfAttackedRecently",
@@ -353,6 +388,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 1453771408,
 		"Name": "of the Guardian",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmBlockChanceIfAttackedRecently",
@@ -364,6 +400,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 1436284579,
 		"Name": "of the Saboteur",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmCannotBeBlinded",
@@ -375,6 +412,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 2289189129,
 		"Name": "Saboteur's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmChanceFor150%AreaDamage",
@@ -386,6 +424,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 2289189129,
 		"Name": "Saboteur's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmChanceFor150%AreaDamage",
@@ -397,6 +436,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 1741279188,
 		"Name": "Trickster's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmChanceFor25%NonChaosToAddAsChaosDamage",
@@ -408,6 +448,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 1741279188,
 		"Name": "Trickster's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmChanceFor25%NonChaosToAddAsChaosDamage",
@@ -419,6 +460,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3410306164,
 		"Name": "of the Trickster",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmChanceForEnergyShieldRechargeOnSuppress",
@@ -430,6 +472,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3410306164,
 		"Name": "of the Trickster",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmChanceForEnergyShieldRechargeOnSuppress",
@@ -441,6 +484,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 1870732546,
 		"Name": "Hierophant's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmChanceToSummonTwoTotems",
@@ -452,6 +496,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 1870732546,
 		"Name": "Hierophant's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmChanceToSummonTwoTotems",
@@ -463,6 +508,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3132227798,
 		"Name": "Saboteur's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmChanceToThrow4AdditionalTraps",
@@ -474,6 +520,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3132227798,
 		"Name": "Saboteur's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmChanceToThrow4AdditionalTraps",
@@ -485,6 +532,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 1763939859,
 		"Name": "Occultist's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmChaosExplode",
@@ -494,6 +542,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 1763939859,
 		"Name": "Occultist's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmChaosExplode",
@@ -503,6 +552,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 4210011075,
 		"Name": "of the Juggernaut",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmChaosResistancePerEnduranceCharge",
@@ -512,6 +562,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 4210011075,
 		"Name": "of the Juggernaut",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmChaosResistancePerEnduranceCharge",
@@ -521,6 +572,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 2171629017,
 		"Name": "Trickster's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmChargeDuration",
@@ -532,6 +584,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 2171629017,
 		"Name": "Trickster's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmChargeDuration",
@@ -543,6 +596,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 2774670797,
 		"Name": "of the Elementalist",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmChillMinimumSlow",
@@ -552,6 +606,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 2774670797,
 		"Name": "of the Elementalist",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmChillMinimumSlow",
@@ -561,6 +616,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 2474564741,
 		"Name": "Inquisitor's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmConsecratedGroundDamageTaken",
@@ -572,6 +628,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 2474564741,
 		"Name": "Inquisitor's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmConsecratedGroundDamageTaken",
@@ -583,6 +640,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 4113372195,
 		"Name": "of the Inquisitor",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmConsecratedGroundLingerDuration",
@@ -594,6 +652,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3135669941,
 		"Name": "of the Inquisitor",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmConsecratedGroundVsRareUnique",
@@ -605,6 +664,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3135669941,
 		"Name": "of the Inquisitor",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmConsecratedGroundVsRareUnique",
@@ -616,6 +676,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 1004011302,
 		"Name": "Saboteur's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmCooldownRecoveryRate",
@@ -627,6 +688,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 1004011302,
 		"Name": "Saboteur's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmCooldownRecoveryRate",
@@ -638,6 +700,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 293071889,
 		"Name": "Berserker's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmCorpseExplodeOnWarcry",
@@ -647,6 +710,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 293071889,
 		"Name": "Berserker's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmCorpseExplodeOnWarcry",
@@ -656,6 +720,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 586568910,
 		"Name": "Necromancer's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmCorpseLife",
@@ -665,6 +730,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 586568910,
 		"Name": "Necromancer's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmCorpseLife",
@@ -674,6 +740,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 47954913,
 		"Name": "Assassin's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmCriticalStrikeChanceAgainstFullLifeEnemies",
@@ -685,6 +752,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 47954913,
 		"Name": "Assassin's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmCriticalStrikeChanceAgainstFullLifeEnemies",
@@ -696,6 +764,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 2856328513,
 		"Name": "Inquisitor's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmCriticalStrikeChanceIfNotCritRecently",
@@ -707,6 +776,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 2856328513,
 		"Name": "Inquisitor's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmCriticalStrikeChanceIfNotCritRecently",
@@ -718,6 +788,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 1857928882,
 		"Name": "of the Assassin",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmCriticalStrikeDamageCannotBeReflected",
@@ -729,6 +800,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 4164870816,
 		"Name": "Assassin's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmCriticalStrikeMultiplierPerPowerCharge",
@@ -740,6 +812,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 4164870816,
 		"Name": "Assassin's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmCriticalStrikeMultiplierPerPowerCharge",
@@ -751,6 +824,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 2996445420,
 		"Name": "Assassin's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmCriticalStrikesHaveCullingStrike",
@@ -762,6 +836,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3772078232,
 		"Name": "Inquisitor's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmCriticalStrikesNonDamagingAilmentEffect",
@@ -773,6 +848,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3772078232,
 		"Name": "Inquisitor's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmCriticalStrikesNonDamagingAilmentEffect",
@@ -784,6 +860,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 1963942874,
 		"Name": "Saboteur's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmCritVsBurningAndShockedEnemies",
@@ -795,6 +872,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 1963942874,
 		"Name": "Saboteur's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmCritVsBurningAndShockedEnemies",
@@ -806,6 +884,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 2524254339,
 		"Name": "Slayer's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmCullingStrike",
@@ -817,6 +896,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 2353576063,
 		"Name": "Occultist's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmCurseEffect",
@@ -826,6 +906,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 2353576063,
 		"Name": "Occultist's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmCurseEffect",
@@ -835,6 +916,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 458438597,
 		"Name": "of the Hierophant",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmDamageRemovedFromManaBeforeLife",
@@ -846,6 +928,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 458438597,
 		"Name": "of the Hierophant",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmDamageRemovedFromManaBeforeLife",
@@ -857,6 +940,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 2762445213,
 		"Name": "of the Hierophant",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmDamageRemovedFromTotemLifeBeforeSelf",
@@ -868,6 +952,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 2762445213,
 		"Name": "of the Hierophant",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmDamageRemovedFromTotemLifeBeforeSelf",
@@ -879,6 +964,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 697807915,
 		"Name": "Inquisitor's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmElementalPenetration",
@@ -890,6 +976,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 697807915,
 		"Name": "Inquisitor's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmElementalPenetration",
@@ -901,6 +988,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 1827932821,
 		"Name": "of the Elementalist",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmElementalReflectImmune",
@@ -910,6 +998,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 319842716,
 		"Name": "of the Necromancer",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmElementalResistancesForAuraAffectedAllies",
@@ -919,6 +1008,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 319842716,
 		"Name": "of the Necromancer",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmElementalResistancesForAuraAffectedAllies",
@@ -928,6 +1018,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 240857668,
 		"Name": "of the Assassin",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmElusiveEffect",
@@ -939,6 +1030,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 240857668,
 		"Name": "of the Assassin",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmElusiveEffect",
@@ -950,6 +1042,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 1514657588,
 		"Name": "Juggernaut's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmEnchangeChargeWhenHit",
@@ -959,6 +1052,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 1514657588,
 		"Name": "Juggernaut's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmEnchangeChargeWhenHit",
@@ -968,6 +1062,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 1582887649,
 		"Name": "Juggernaut's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmEnduranceChargeOnStun",
@@ -977,6 +1072,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 1582887649,
 		"Name": "Juggernaut's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmEnduranceChargeOnStun",
@@ -986,6 +1082,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 2556900184,
 		"Name": "of the Guardian",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmEnemiesInLinkBeamCannotInflictElementalAilments",
@@ -997,6 +1094,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 4201339891,
 		"Name": "Trickster's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmEnergyShieldLeech",
@@ -1008,6 +1106,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 4201339891,
 		"Name": "Trickster's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmEnergyShieldLeech",
@@ -1019,6 +1118,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3594640492,
 		"Name": "of the Occultist",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmEnergyShieldRegeneration",
@@ -1028,6 +1128,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3594640492,
 		"Name": "of the Occultist",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmEnergyShieldRegeneration",
@@ -1037,6 +1138,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 1144937587,
 		"Name": "of the Trickster",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmEvasionPerEnergyShieldOnHelmet",
@@ -1048,6 +1150,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 1144937587,
 		"Name": "of the Trickster",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmEvasionPerEnergyShieldOnHelmet",
@@ -1059,6 +1162,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 660404777,
 		"Name": "of the Raider",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmEvasionRatingPerFrenzyCharge",
@@ -1068,6 +1172,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 660404777,
 		"Name": "of the Raider",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmEvasionRatingPerFrenzyCharge",
@@ -1077,6 +1182,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 3306713700,
 		"Name": "Elementalist's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmExposureExtraResistance",
@@ -1086,6 +1192,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3306713700,
 		"Name": "Elementalist's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmExposureExtraResistance",
@@ -1095,6 +1202,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 215242678,
 		"Name": "Chieftain's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmFireExplode",
@@ -1104,6 +1212,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 1193283913,
 		"Name": "of the Pathfinder",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmFlaskChargesEvery3Seconds",
@@ -1113,6 +1222,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 589437732,
 		"Name": "of the Pathfinder",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmFlaskChargesGainedFromEnemiesWithAilments",
@@ -1122,6 +1232,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 589437732,
 		"Name": "of the Pathfinder",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmFlaskChargesGainedFromEnemiesWithAilments",
@@ -1131,6 +1242,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 1166417447,
 		"Name": "of the Champion",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmFortifyOnMeleeHitChance",
@@ -1142,6 +1254,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 1166417447,
 		"Name": "of the Champion",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmFortifyOnMeleeHitChance",
@@ -1153,6 +1266,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 2323242761,
 		"Name": "Raider's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmFrenzyOnHItChance",
@@ -1162,6 +1276,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 2323242761,
 		"Name": "Raider's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmFrenzyOnHItChance",
@@ -1171,6 +1286,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 4205704547,
 		"Name": "Champion's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmGainAdrenalineOnReachingLowLife",
@@ -1182,6 +1298,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 2109043683,
 		"Name": "of the Elementalist",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmGolemBuffEffect",
@@ -1191,6 +1308,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 2109043683,
 		"Name": "of the Elementalist",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmGolemBuffEffect",
@@ -1200,6 +1318,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 986397080,
 		"Name": "of the Chieftain",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmIgniteDurationOnSelf",
@@ -1209,6 +1328,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 986397080,
 		"Name": "of the Chieftain",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmIgniteDurationOnSelf",
@@ -1218,6 +1338,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 800141891,
 		"Name": "Elementalist's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmIgniteFreezeShockChance",
@@ -1227,6 +1348,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 800141891,
 		"Name": "Elementalist's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmIgniteFreezeShockChance",
@@ -1236,6 +1358,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 1367119630,
 		"Name": "Occultist's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmIgnoreHexproofEnemies",
@@ -1245,6 +1368,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3425951133,
 		"Name": "Champion's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmImpaleLastsForExtraHits",
@@ -1256,6 +1380,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 2770801535,
 		"Name": "of the Berserker",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmLeechIfKilledRecently",
@@ -1265,6 +1390,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 2770801535,
 		"Name": "of the Berserker",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmLeechIfKilledRecently",
@@ -1274,6 +1400,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 3561837752,
 		"Name": "of the Berserker",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmLeechPercentIsInstant",
@@ -1283,6 +1410,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 3561837752,
 		"Name": "of the Berserker",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmLeechPercentIsInstant",
@@ -1292,6 +1420,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 2023107756,
 		"Name": "of the Trickster",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmLifeManaESOnKill",
@@ -1303,6 +1432,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 2023107756,
 		"Name": "of the Trickster",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmLifeManaESOnKill",
@@ -1314,6 +1444,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3148570142,
 		"Name": "of the Deadeye",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmLifeOnHitVsBleedingEnemies",
@@ -1323,6 +1454,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 3148570142,
 		"Name": "of the Deadeye",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmLifeOnHitVsBleedingEnemies",
@@ -1332,6 +1464,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 1242155304,
 		"Name": "Guardian's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmLifeRegenerationForASecondEvery10Seconds",
@@ -1343,6 +1476,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 1242155304,
 		"Name": "Guardian's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmLifeRegenerationForASecondEvery10Seconds",
@@ -1354,6 +1488,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 44972811,
 		"Name": "of the Juggernaut",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmLIfeRegenerationRate",
@@ -1363,6 +1498,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 44972811,
 		"Name": "of the Juggernaut",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmLIfeRegenerationRate",
@@ -1372,6 +1508,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 2564857472,
 		"Name": "Pathfinder's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmMagicUtilityFlaskEffect",
@@ -1381,6 +1518,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 2564857472,
 		"Name": "Pathfinder's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmMagicUtilityFlaskEffect",
@@ -1390,6 +1528,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 1291726336,
 		"Name": "Gladiator's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmMaimOnHitVsBlindedEnemies",
@@ -1401,6 +1540,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 1291726336,
 		"Name": "Gladiator's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmMaimOnHitVsBlindedEnemies",
@@ -1412,6 +1552,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 1212083058,
 		"Name": "Hierophant's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmManaReservationEfficiency",
@@ -1423,6 +1564,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 1212083058,
 		"Name": "Hierophant's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmManaReservationEfficiency",
@@ -1434,6 +1576,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 2663376056,
 		"Name": "of the Hierophant",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmManaToAddAsExtraEnergyShield",
@@ -1445,6 +1588,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 2663376056,
 		"Name": "of the Hierophant",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmManaToAddAsExtraEnergyShield",
@@ -1456,6 +1600,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 803185500,
 		"Name": "Deadeye's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmMarkEffect",
@@ -1465,6 +1610,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 803185500,
 		"Name": "Deadeye's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmMarkEffect",
@@ -1474,6 +1620,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 3101897388,
 		"Name": "Slayer's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmMaximumAmountPerLifeLeech",
@@ -1485,6 +1632,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 3101897388,
 		"Name": "Slayer's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmMaximumAmountPerLifeLeech",
@@ -1496,6 +1644,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 4124805414,
 		"Name": "of the Gladiator",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmMaximumBlock",
@@ -1507,6 +1656,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 4124805414,
 		"Name": "of the Gladiator",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmMaximumBlock",
@@ -1518,6 +1668,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 4095671657,
 		"Name": "of the Chieftain",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmMaximumFireDamageResistance",
@@ -1527,6 +1678,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 4095671657,
 		"Name": "of the Chieftain",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmMaximumFireDamageResistance",
@@ -1536,6 +1688,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 1181501418,
 		"Name": "Berserker's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmMaximumRage",
@@ -1545,6 +1698,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 1181501418,
 		"Name": "Berserker's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmMaximumRage",
@@ -1554,6 +1708,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 2121424530,
 		"Name": "Saboteur's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmMineAuraEffect",
@@ -1565,6 +1720,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 2121424530,
 		"Name": "Saboteur's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmMineAuraEffect",
@@ -1576,6 +1732,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3706959521,
 		"Name": "of the Hierophant",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmMinimumEnduranceAndPowerCharges",
@@ -1587,6 +1744,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 2268802111,
 		"Name": "Necromancer's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmMinionPhysicalDamageBasedOffHelmetEnergyShield",
@@ -1596,6 +1754,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 2268802111,
 		"Name": "Necromancer's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmMinionPhysicalDamageBasedOffHelmetEnergyShield",
@@ -1605,6 +1764,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3119612865,
 		"Name": "of the Necromancer",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmMinionPhysicalDamageReduction",
@@ -1614,6 +1774,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3119612865,
 		"Name": "of the Necromancer",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmMinionPhysicalDamageReduction",
@@ -1623,6 +1784,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3131367308,
 		"Name": "Necromancer's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmMinionUnholyMightChance",
@@ -1632,6 +1794,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3131367308,
 		"Name": "Necromancer's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmMinionUnholyMightChance",
@@ -1641,6 +1804,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3663580344,
 		"Name": "of the Deadeye",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmMirageArcherDuration",
@@ -1650,6 +1814,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 3663580344,
 		"Name": "of the Deadeye",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmMirageArcherDuration",
@@ -1659,6 +1824,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 3875592188,
 		"Name": "Juggernaut's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmMovementSpeedCannotBeBelowBase",
@@ -1668,6 +1834,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 1541516339,
 		"Name": "Raider's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmMovementSpeedPerFrenzyCharge",
@@ -1677,6 +1844,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 3730497630,
 		"Name": "Guardian's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmNearbyAlliesHaveOnslaughtIfYouHaveAtLeast5Nearby",
@@ -1688,6 +1856,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 2480873346,
 		"Name": "of the Occultist",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmNearbyEnemiesAreChilled",
@@ -1697,6 +1866,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 4031527864,
 		"Name": "Guardian's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmNearbyEnemiesCannotGainCharges",
@@ -1708,6 +1878,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3953699641,
 		"Name": "Deadeye's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmNoBarrageSpread",
@@ -1717,6 +1888,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 2953854044,
 		"Name": "of the Assassin",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmNoExtraDamageFromCriticalStrikesIfElusive",
@@ -1728,6 +1900,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3014823981,
 		"Name": "Hierophant's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmNonDamagingAilmentEffectOnSelfWithArcaneSurge",
@@ -1739,6 +1912,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3014823981,
 		"Name": "Hierophant's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmNonDamagingAilmentEffectOnSelfWithArcaneSurge",
@@ -1750,6 +1924,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 2071120096,
 		"Name": "Necromancer's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmOfferingEffect",
@@ -1759,6 +1934,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 2071120096,
 		"Name": "Necromancer's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmOfferingEffect",
@@ -1768,6 +1944,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3151397056,
 		"Name": "Raider's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmOnslaughtEffect",
@@ -1777,6 +1954,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 3151397056,
 		"Name": "Raider's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmOnslaughtEffect",
@@ -1786,6 +1964,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 665823128,
 		"Name": "Raider's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmOnslaughtOnKillChance",
@@ -1795,6 +1974,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 665823128,
 		"Name": "Raider's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmOnslaughtOnKillChance",
@@ -1804,6 +1984,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 3511523149,
 		"Name": "of the Slayer",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmOverkillLeech",
@@ -1815,6 +1996,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 3511523149,
 		"Name": "of the Slayer",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmOverkillLeech",
@@ -1826,6 +2008,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 3035931505,
 		"Name": "Gladiator's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmOverwhelmIfBlockedinPast20Seconds",
@@ -1837,6 +2020,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 2918708827,
 		"Name": "of the Raider",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmPhasingOnKillChance",
@@ -1846,6 +2030,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 2918708827,
 		"Name": "of the Raider",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmPhasingOnKillChance",
@@ -1855,6 +2040,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 3753703249,
 		"Name": "Pathfinder's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmPhysicalDamageAsRandomElement",
@@ -1864,6 +2050,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 3753703249,
 		"Name": "Pathfinder's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmPhysicalDamageAsRandomElement",
@@ -1873,6 +2060,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 249805317,
 		"Name": "of the Slayer",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmPhysicalReflectImmune",
@@ -1884,6 +2072,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 86516932,
 		"Name": "Assassin's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmPoisonDurationPerPoisonAppliedRecently",
@@ -1895,6 +2084,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 86516932,
 		"Name": "Assassin's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmPoisonDurationPerPoisonAppliedRecently",
@@ -1906,6 +2096,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3814876985,
 		"Name": "Assassin's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmPowerChargeOnCriticalStrike",
@@ -1917,6 +2108,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3814876985,
 		"Name": "Assassin's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmPowerChargeOnCriticalStrike",
@@ -1928,6 +2120,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 2140446632,
 		"Name": "Deadeye's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmProjectileChainFromTerrainChance",
@@ -1937,6 +2130,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 2140446632,
 		"Name": "Deadeye's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmProjectileChainFromTerrainChance",
@@ -1946,6 +2140,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 2083727359,
 		"Name": "Deadeye's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmProjectileDamageWithDistanceTravelled",
@@ -1955,6 +2150,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 2083727359,
 		"Name": "Deadeye's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmProjectileDamageWithDistanceTravelled",
@@ -1964,6 +2160,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 308309328,
 		"Name": "of the Trickster",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmRecover10PercentManaOnSkillUseChance",
@@ -1975,6 +2172,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 308309328,
 		"Name": "of the Trickster",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmRecover10PercentManaOnSkillUseChance",
@@ -1986,6 +2184,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 1790196169,
 		"Name": "of the Champion",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmRecoverBannerStagesOnPlacingBanner",
@@ -1997,6 +2196,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 1790196169,
 		"Name": "of the Champion",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmRecoverBannerStagesOnPlacingBanner",
@@ -2008,6 +2208,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 3184268466,
 		"Name": "of the Pathfinder",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmRecoverLifeOnFlaskUse",
@@ -2017,6 +2218,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 3184268466,
 		"Name": "of the Pathfinder",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmRecoverLifeOnFlaskUse",
@@ -2026,6 +2228,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 2900084972,
 		"Name": "of the Necromancer",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmRegenerateEnergyShieldOnConsumeCorpse",
@@ -2035,6 +2238,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 2900084972,
 		"Name": "of the Necromancer",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmRegenerateEnergyShieldOnConsumeCorpse",
@@ -2044,6 +2248,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3721828090,
 		"Name": "of the Necromancer",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmRegenerateManaOnConsumeCorpse",
@@ -2053,6 +2258,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3721828090,
 		"Name": "of the Necromancer",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmRegenerateManaOnConsumeCorpse",
@@ -2062,6 +2268,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 2202201823,
 		"Name": "of the Pathfinder",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmRemoveBleedOnFlaskUse",
@@ -2071,6 +2278,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 2189230542,
 		"Name": "of the Guardian",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmRemoveCursesAndAilmentsEvery10seconds",
@@ -2082,6 +2290,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 681709908,
 		"Name": "Guardian's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmReservedManaGrantedAsArmour",
@@ -2093,6 +2302,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 681709908,
 		"Name": "Guardian's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmReservedManaGrantedAsArmour",
@@ -2104,6 +2314,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 1712740586,
 		"Name": "Elementalist's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmShockMinimumDamageIncrease",
@@ -2113,6 +2324,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 1712740586,
 		"Name": "Elementalist's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmShockMinimumDamageIncrease",
@@ -2122,6 +2334,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 1952992278,
 		"Name": "of the Guardian",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmSpellBlockChanceIfCastSpellRecently",
@@ -2133,6 +2346,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 1952992278,
 		"Name": "of the Guardian",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmSpellBlockChanceIfCastSpellRecently",
@@ -2144,6 +2358,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 1493325653,
 		"Name": "of the Trickster",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmSpellDamageSuppressedOnFullEnergyShield",
@@ -2155,6 +2370,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 1493325653,
 		"Name": "of the Trickster",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmSpellDamageSuppressedOnFullEnergyShield",
@@ -2166,6 +2382,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3002506763,
 		"Name": "of the Occultist",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmSpellHinderOnHitChance",
@@ -2175,6 +2392,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3002506763,
 		"Name": "of the Occultist",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmSpellHinderOnHitChance",
@@ -2184,6 +2402,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3680664274,
 		"Name": "of the Raider",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmSpellSuppressionChance",
@@ -2193,6 +2412,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 3680664274,
 		"Name": "of the Raider",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmSpellSuppressionChance",
@@ -2202,6 +2422,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 2543977012,
 		"Name": "of the Inquisitor",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmStrengthAndIntelligence",
@@ -2213,6 +2434,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 2543977012,
 		"Name": "of the Inquisitor",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmStrengthAndIntelligence",
@@ -2224,6 +2446,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 734614379,
 		"Name": "Chieftain's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmStrengthPercent",
@@ -2233,6 +2456,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 734614379,
 		"Name": "Chieftain's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmStrengthPercent",
@@ -2242,6 +2466,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 3058290552,
 		"Name": "of the Gladiator",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmStunImmuneAgainstBlockedHits",
@@ -2253,6 +2478,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 2983926876,
 		"Name": "of the Champion",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmStunImmuneWhileFortified",
@@ -2264,6 +2490,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 1887508417,
 		"Name": "of the Slayer",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmStunImmuneWhileLeeching",
@@ -2275,6 +2502,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 2971900104,
 		"Name": "of the Berserker",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmStunImmuneWith25Rage",
@@ -2284,6 +2512,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 4253777805,
 		"Name": "of the Saboteur",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmTakeHalfAreaDamageChance",
@@ -2295,6 +2524,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 4253777805,
 		"Name": "of the Saboteur",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmTakeHalfAreaDamageChance",
@@ -2306,6 +2536,7 @@
 		"Corvine": 1
 	},
 	{
+		"ID": 3272283603,
 		"Name": "Champion's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmTauntOnHitChance",
@@ -2317,6 +2548,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 3272283603,
 		"Name": "Champion's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmTauntOnHitChance",
@@ -2328,6 +2560,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 825316273,
 		"Name": "of the Chieftain",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmTotemRecoup",
@@ -2337,6 +2570,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 825316273,
 		"Name": "of the Chieftain",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmTotemRecoup",
@@ -2346,6 +2580,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 2076876595,
 		"Name": "of the Chieftain",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmTotemTauntEnemiesWhenSummoned",
@@ -2355,6 +2590,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 2291122510,
 		"Name": "of the Slayer",
 		"Affix": "Suffix",
 		"Groups": "AnimalCharmUnaffectedbyBleedingWhileLeeching",
@@ -2366,6 +2602,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 3608339129,
 		"Name": "Berserker's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmWarcriesGrantRage",
@@ -2375,6 +2612,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 3608339129,
 		"Name": "Berserker's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmWarcriesGrantRage",
@@ -2384,6 +2622,7 @@
 		"Ursine": 1
 	},
 	{
+		"ID": 2545584555,
 		"Name": "Pathfinder's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmWitheredEffect",
@@ -2393,6 +2632,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 2545584555,
 		"Name": "Pathfinder's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmWitheredEffect",
@@ -2402,6 +2642,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 1957711555,
 		"Name": "Pathfinder's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmWitheredOnHitChance",
@@ -2411,6 +2652,7 @@
 		"Lupine": 1
 	},
 	{
+		"ID": 1957711555,
 		"Name": "Pathfinder's",
 		"Affix": "Prefix",
 		"Groups": "AnimalCharmWitheredOnHitChance",

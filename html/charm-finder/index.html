@@ -6,7 +6,7 @@
 		<title>JustExileThings: Charm Finder</title>
 		<link rel="stylesheet" href="../output.css" />
 	</head>
-	<body class="bg-gray-950 text-gray-50">
+	<body class="bg-gray-950 text-gray-50 pb-64">
 		<!-- title -->
 		<div class="flex justify-center relative">
 			<div class="text-xl py-6">
@@ -28,9 +28,39 @@
 			<input id="inpSearch" type="text" class="rounded border-2 border-gray-600 mb-6 outline-none px-2 py-1 text-gray-950" placeholder="Search affixes" />
 
 			<!-- main grid -->
-			<div class="grid grid-cols-1 lg:grid-cols-2 gap-6 pb-10">
+			<div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
 				<div id="prefixes"><span class="text-lg font-bold">PREFIXES</span></div>
 				<div id="suffixes"><span class="text-lg font-bold">SUFFIXES</span></div>
+			</div>
+		</div>
+
+		<!-- selected charm -->
+		<div id="charm" class="fixed left-0 bottom-0 right-0 hidden">
+			<div class="grid place-items-center">
+				<div class="rounded-t bg-black/60">
+					<div class="flex place-items-end p-3 gap-3">
+						<!-- charm item display -->
+						<div class="inline-block text-center bg-blue-950">
+							<div class="flex flex-col gap-3 bg-black/80 pb-3">
+								<div class="px-6 bg-blue-950 text-white border-blue-900 p-3 uppercase font-semibold">
+									<span class="prefix text-purple-300"></span> <span class="charm"></span> charm <span class="suffix text-blue-300"></span>
+								</div>
+								<div class="px-6 uppercase text-gray-400 text-sm">Required Level: <span class="level text-white"></span></div>
+								<div class="px-6"><span class="stat1"></span></div>
+								<div class="px-6"><span class="stat2"></span></div>
+							</div>
+						</div>
+						<!-- buttons -->
+						<div class="flex flex-col gap-2">
+							<div class="bg-gray-950 rounded">
+								<div id="btnTrade" class="p-1 rounded border-2 border-gray-800 hover:border-gray-700 bg-white/10 hover:bg-white/20 transition-colors cursor-pointer">TRADE</div>
+							</div>
+							<div class="bg-gray-950 rounded">
+								<div id="btnClear" class="p-1 rounded border-2 border-gray-800 hover:border-gray-700 bg-white/10 hover:bg-white/20 transition-colors cursor-pointer">CLEAR</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</body>
