@@ -24,13 +24,29 @@
 
 		<!-- content -->
 		<div class="container mx-auto max-w-96 px-3">
-			<!-- search -->
-			<input id="inpSearch" type="text" class="rounded border-2 border-gray-600 mb-6 outline-none px-2 py-1 text-gray-950" placeholder="Search affixes" />
+			<!-- controls -->
+			<div class="grid gap-2 grid-cols-[1fr_min-content] lg:flex mb-6">
+				<!-- search -->
+				<div class="col-span-2">
+					<input id="inpSearch" type="text" class="rounded border-2 border-gray-600 outline-none px-2 py-1 text-gray-950 w-full" placeholder="Search affixes" />
+				</div>
+				<!-- hide filtered -->
+				<div>
+					<select id="inpHideSelected" class="rounded border-2 border-gray-600 outline-none px-2 py-1 text-gray-950 w-full">
+						<option value="0">Opaque Filtered</option>
+						<option value="1">Hide Filtered</option>
+					</select>
+				</div>
+				<!-- clear -->
+				<div class="bg-gray-950 rounded">
+					<div class="btnClear p-1 rounded border-2 border-gray-800 hover:border-gray-700 bg-white/10 hover:bg-white/20 transition-colors cursor-pointer">CLEAR</div>
+				</div>
+			</div>
 
 			<!-- main grid -->
 			<div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
-				<div id="prefixes"><span class="text-lg font-bold">PREFIXES</span></div>
-				<div id="suffixes"><span class="text-lg font-bold">SUFFIXES</span></div>
+				<div id="prefixes" class="affixContainer"><span class="text-lg font-bold">PREFIXES</span></div>
+				<div id="suffixes" class="affixContainer"><span class="text-lg font-bold">SUFFIXES</span></div>
 			</div>
 		</div>
 
@@ -56,7 +72,7 @@
 								<div id="btnTrade" class="p-1 rounded border-2 border-gray-800 hover:border-gray-700 bg-white/10 hover:bg-white/20 transition-colors cursor-pointer">TRADE</div>
 							</div>
 							<div class="bg-gray-950 rounded">
-								<div id="btnClear" class="p-1 rounded border-2 border-gray-800 hover:border-gray-700 bg-white/10 hover:bg-white/20 transition-colors cursor-pointer">CLEAR</div>
+								<div class="btnClear p-1 rounded border-2 border-gray-800 hover:border-gray-700 bg-white/10 hover:bg-white/20 transition-colors cursor-pointer">CLEAR</div>
 							</div>
 						</div>
 					</div>

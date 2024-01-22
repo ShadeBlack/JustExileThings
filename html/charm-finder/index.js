@@ -13,27 +13,36 @@ document.addEventListener("DOMContentLoaded", () => {
 		let st = si.value.toLowerCase();
 		ae.forEach((a) => {
 			const ds = a.getAttribute("data-stats").toLowerCase();
-			if (ds.includes(st)) a.classList.remove("opacity-10", "cursor-not-allowed");
-			else a.classList.add("opacity-10");
+			let fn = ds.includes(st) ? "remove" : "add";
+			a.classList[fn]("filtered");
 		});
+		styleFiltered();
 		dispalyCharm();
 	});
 
+	// filter change
+	document.getElementById("inpHideSelected").addEventListener("change", () => styleFiltered());
+
 	// clear button
-	document.getElementById("btnClear").addEventListener("click", () => {
-		si.value = "";
-		const ie = new Event("input");
-		si.dispatchEvent(ie);
+	let bc = document.querySelectorAll(".btnClear");
+	bc.forEach((e) => {
+		e.addEventListener("click", () => {
+			si.value = "";
+			let a = document.querySelectorAll(".affix");
+			a.forEach((e) => e.classList.remove("filtered", "selected"));
+			styleFiltered();
+			dispalyCharm();
+		});
 	});
 
 	// trade button
 	document.getElementById("btnTrade").addEventListener("click", () => {
 		// vars
-		let p = document.querySelectorAll("#prefixes .affix:not(.opacity-10)");
-		let s = document.querySelectorAll("#suffixes .affix:not(.opacity-10)");
+		let p = document.querySelectorAll("#prefixes .affix.selected");
+		let s = document.querySelectorAll("#suffixes .affix.selected");
 
 		// validation
-		if (p.length > 1 || s.length > 1) {
+		if (p.length != 1 || s.length != 1) {
 			c.classList.add("hidden");
 			return;
 		}
@@ -71,7 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		};
 
 		// query
-		let u = new URL("https://www.pathofexile.com/trade/search/Affliction");
+		let u = new URL("https://www.pathofexile.com/trade/search/");
 		let q = {
 			query: {
 				status: {
@@ -94,7 +103,6 @@ function populateTables(d) {
 	// d = json data
 
 	let g = document.createElement("div");
-	// class="grid grid-cols-11"
 	g.classList.add(...["grid", "grid-cols-11"]);
 
 	let dfp = d.filter((i) => i.Affix == "Prefix");
@@ -160,17 +168,7 @@ function populateTables(d) {
 		e.addEventListener("click", (e) => {
 			// vars
 			let ct = e.currentTarget;
-
-			// check for disabled option
-			if (ct.classList.contains("cursor-not-allowed")) return;
-
-			// check to clear search
-			let si = document.getElementById("inpSearch");
-			if (si.value.length) {
-				si.value = "";
-				const ie = new Event("input");
-				si.dispatchEvent(ie);
-			}
+			let ctif = ct.classList.contains("filtered"); // ct is 'filtered'
 
 			// data attributes
 			let daid = ct.dataset.id ?? null;
@@ -182,24 +180,39 @@ function populateTables(d) {
 			let daur = ct.dataset.ursine ?? null;
 			let daco = ct.dataset.corvine ?? null;
 
-			// handle combination matching
-			let c1i = daaf === "Prefix" ? "prefixes" : "suffixes";
-			let c2i = daaf === "Prefix" ? "suffixes" : "prefixes";
-			let c1 = document.getElementById(c1i);
-			let c2 = document.getElementById(c2i);
-			let c1a = c1.querySelectorAll(".affix");
-			let c1av = c1.querySelectorAll(".affix:not(.opacity-10)").length;
-			let c2a = c2.querySelectorAll(".affix");
-			let c2av = c2.querySelectorAll(".affix:not(.opacity-10)").length;
+			// check to clear search
+			let si = document.getElementById("inpSearch");
+			if (si.value.length) si.value = "";
 
-			// apply opacity-10 class to other .affix elements in #prefixes container
-			if (c1av != 1)
-				c1a.forEach((e) => {
-					if (e !== ct) e.classList.add("opacity-10", "cursor-not-allowed");
-				});
+			// container
+			let ac = ct.closest(".affixContainer"); // affix container
+			let ca = ac.querySelectorAll(".affix"); // container's affixes
+			ca.forEach((e) => e.classList.remove("selected", "filtered"));
 
-			// all suffix hidden by default
-			let fa = Array.from(c2a).filter((e) => {
+			// select the element
+			ct.classList.add("selected");
+
+			// filter the rest
+			let oa = ac.querySelectorAll(".affix:not(.selected)"); // siblings
+			oa.forEach((e) => e.classList.add("filtered")); // filter out all other affixes of the same type
+
+			// other container
+			let oac = document.getElementById(ac.getAttribute("id") == "prefixes" ? "suffixes" : "prefixes");
+			let oca = oac.querySelectorAll(".affix"); // other container's affixes
+			let ocs = oac.querySelectorAll(".selected"); // other container's selected
+
+			// if only one opposing affix selected...
+			if (ocs.length == 1 && !ctif) {
+				styleFiltered();
+				dispalyCharm();
+				return;
+			}
+
+			// else
+			oca.forEach((e) => e.classList.remove("selected", "filtered"));
+
+			// "" filtered (charm rules)
+			let ocaf = Array.from(oca).filter((e) => {
 				if (dass && e.dataset.str > 0) return false;
 				if (dasd && e.dataset.dex > 0) return false;
 				if (dasi && e.dataset.int > 0) return false;
@@ -210,22 +223,38 @@ function populateTables(d) {
 			});
 
 			// apply
-			if (c2av != 1) fa.forEach((e) => e.classList.add("opacity-10", "cursor-not-allowed"));
+			ocaf.forEach((e) => e.classList.add("filtered"));
 
-			// charm
+			// styling
+			styleFiltered();
 			dispalyCharm();
 		});
 	});
 }
 
+function styleFiltered() {
+	// vars
+	let hfv = parseInt(document.getElementById("inpHideSelected").value);
+	let hfc = hfv ? "hidden" : "opacity-10";
+	let a = document.querySelectorAll(".affix");
+	let f = document.querySelectorAll(".filtered");
+
+	// remove all
+	a.forEach((e) => e.classList.remove("opacity-10", "hidden"));
+
+	// filtered
+	f.forEach((e) => e.classList.add(hfc));
+}
+
 function dispalyCharm() {
 	// vars
 	let c = document.getElementById("charm");
-	let p = document.querySelectorAll("#prefixes .affix:not(.opacity-10)");
-	let s = document.querySelectorAll("#suffixes .affix:not(.opacity-10)");
+	let p = document.querySelectorAll("#prefixes .selected");
+	let s = document.querySelectorAll("#suffixes .selected");
 
 	// validation
-	if (p.length > 1 || s.length > 1) {
+	if (p.length != 1 || s.length != 1) {
+		console.log("hiding");
 		c.classList.add("hidden");
 		return;
 	}
