@@ -101,9 +101,6 @@ document.addEventListener("DOMContentLoaded", () => {
 		};
 		q = JSON.stringify(q);
 		u.searchParams.set("q", q);
-
-		console.log(q);
-
 		window.open(u, "_blank");
 	});
 });
@@ -263,7 +260,6 @@ function dispalyCharm() {
 
 	// validation
 	if (p.length != 1 || s.length != 1) {
-		console.log("hiding");
 		c.classList.add("hidden");
 		return;
 	}
