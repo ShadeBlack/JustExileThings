@@ -7,6 +7,8 @@
 ___
 ### Affliction Charm Finder
 [3.23] Interactive charm combinations list / finder.
+- Trade link
+- mobile friendly
 
 ___
 ### Sentinel Planner
@@ -15,6 +17,6 @@ ___
 - Node tooltips
 - Power Unit count
 - Powered Node text summary
-- No mobile support
+- Not mobile friendly
 
 
