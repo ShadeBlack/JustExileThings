@@ -55,6 +55,10 @@ document.addEventListener("DOMContentLoaded", () => {
 		let pid = pe.dataset.id;
 		let sid = se.dataset.id;
 
+		// stat mins
+		let psm = pe.dataset.min;
+		let ssm = se.dataset.min;
+
 		// parts
 		let stats = [
 			{
@@ -62,9 +66,11 @@ document.addEventListener("DOMContentLoaded", () => {
 				filters: [
 					{
 						id: `explicit.stat_${pid}`,
+						min: psm,
 					},
 					{
 						id: `explicit.stat_${sid}`,
+						min: ssm,
 					},
 				],
 			},
@@ -95,6 +101,9 @@ document.addEventListener("DOMContentLoaded", () => {
 		};
 		q = JSON.stringify(q);
 		u.searchParams.set("q", q);
+
+		console.log(q);
+
 		window.open(u, "_blank");
 	});
 });
