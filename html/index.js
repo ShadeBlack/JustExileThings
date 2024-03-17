@@ -1,5 +1,10 @@
 const links = [
 	{
+		name: "Incursion Planner",
+		url: "incursion-planner",
+		img: "incursion",
+	},
+	{
 		name: "Sentinel Planner",
 		url: "sentinel-planner",
 		img: "sentinel",

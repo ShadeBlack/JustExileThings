@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>JustExileThings: Incursion</title>
+		<link rel="stylesheet" href="../output.css" />
+	</head>
+	<body class="bg-gray-950 text-gray-50">
+		<!-- title -->
+		<div class="flex justify-center relative">
+			<div class="text-xl py-6">
+				<a href="../" class="cursor-pointer transition-colors hover:text-yellow-200">: JustExileThings :</a>
+			</div>
+		</div>
+		<!-- content -->
+		<div class="container mx-auto max-w-96 px-3 pb-6">
+			<!-- flare -->
+			<div class="italic text-sm text-center text-gray-300 mb-3">~ "The temple looms closer with each new step!" ~</div>
+			<!-- config code -->
+			<div class="grid grid-cols-[min-content_1fr_repeat(4,min-content)] mb-3">
+				<div class="bg-gray-600 rounded-l px-2 py-1 flex items-center">Config</div>
+				<div>
+					<input id="inpCode" type="text" class="border-2 border-gray-600 outline-none px-2 py-1 text-gray-950 bg-gray-400 w-full" placeholder="Config" />
+				</div>
+				<div id="btnCopy" class="bg-gray-600 px-2 py-1 flex items-center hover:brightness-125 cursor-pointer transition-all">Copy</div>
+				<div id="btnLoad" class="bg-gray-600 px-2 py-1 flex items-center hover:brightness-125 cursor-pointer transition-all">Load</div>
+				<div id="btnClear" class="bg-gray-600 px-2 py-1 flex items-center hover:brightness-125 cursor-pointer transition-all">Clear</div>
+				<div id="btnExample" class="bg-gray-600 rounded-r px-2 py-1 flex items-center hover:brightness-125 cursor-pointer transition-all">Example</div>
+			</div>
+			<!-- search bar -->
+			<input id="inpSearch" type="text" class="rounded border-2 border-gray-600 outline-none px-2 py-1 text-gray-950 w-full mb-3" placeholder="Search" />
+			<!-- rooms -->
+			<div id="grid" class="grid grid-cols-1 lg:grid-cols-[repeat(2,min-content)_repeat(2,1fr)_min-content] rounded bg-white text-slate-900"></div>
+		</div>
+
+		<!-- Production -->
+		<script src="https://unpkg.com/@popperjs/core@2"></script>
+		<script src="https://unpkg.com/tippy.js@6"></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/cash/8.1.5/cash.min.js"
+			integrity="sha512-rUmgzTTLW3Ncifitwec3TMK8qQJK17vYU7r7RjMnXfg2SoEWvVWn7doqhtB8j0KTIHIr3iv4CfOXXEJbPFll6Q=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script src="incursion-planner.js"></script>
+	</body>
+</html>
