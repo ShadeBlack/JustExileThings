@@ -735,6 +735,10 @@ video {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.grid-cols-\[1fr_min-content\] {
+  grid-template-columns: 1fr min-content;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -1293,6 +1297,12 @@ video {
 .hover\:brightness-125:hover {
   --tw-brightness: brightness(1.25);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+@media not all and (min-width: 1024px) {
+  .max-lg\:hidden {
+    display: none;
+  }
 }
 
 @media (min-width: 1024px) {

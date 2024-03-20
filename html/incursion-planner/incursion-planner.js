@@ -122,6 +122,10 @@ function grid() {
 		let si = sorti === heads.indexOf(v) ? " 🔽" : "";
 		// if first element, hide
 		let h = i === 0 ? "hidden" : "";
+
+		// div is hidden on mobile if not room name or tier
+		h += i === 3 || i === 5 ? "" : " max-lg:hidden";
+
 		// column headers
 		$("#grid").append(`
 			<div class="btnSort ${h} px-2 py-1 bg-slate-800 sticky top-0 text-gray-50 cursor-pointer hover:brightness-125 whitespace-nowrap">
@@ -171,8 +175,11 @@ function grid() {
 			// if level or tier, center text
 			let ct = i === 2 || i === 5 ? "text-center" : "";
 
+			// div is hidden on mobile if not room name or tier
+			let h = i === 3 || i === 5 ? "" : "max-lg:hidden";
+
 			// set cell opacity based on mod 2
-			$("#grid").append(`<div class="room ${be} px-2 py-1 whitespace-nowrap ${ct} ${co} ${bg} ${l3}" ${tt} data-search='${sd}'>${cell}</div>`);
+			$("#grid").append(`<div class="room ${be} ${h} px-2 py-1 whitespace-nowrap ${ct} ${co} ${bg} ${l3}" ${tt} data-search='${sd}'>${cell}</div>`);
 		});
 	});
 
