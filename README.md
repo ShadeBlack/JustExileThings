@@ -35,4 +35,4 @@
 -   Save and load/share the tier list with the encoded url
 -   Search field to quickly find a room
 -   Quickly edit tiers with tooltips
--   Currently not mobile supported
+-   Mobile supported (but some columns are hidden)
