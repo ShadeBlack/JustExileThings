@@ -604,6 +604,10 @@ video {
   grid-column: span 3 / span 3;
 }
 
+.float-right {
+  float: right;
+}
+
 .mx-6 {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
@@ -612,6 +616,11 @@ video {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .mb-12 {
@@ -720,6 +729,10 @@ video {
 
 .grid-cols-\[min-content_1fr_repeat\(4\2c min-content\)\] {
   grid-template-columns: min-content 1fr repeat(4,min-content);
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -1090,6 +1103,10 @@ video {
 
 .pl-\[2em\] {
   padding-left: 2em;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
 }
 
 .text-center {
