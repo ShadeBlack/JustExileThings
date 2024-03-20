@@ -141,8 +141,12 @@ function grid() {
 		let l3 = room[2] === "3" ? "font-bold" : "";
 		// set opacity based on mod 2
 		let co = i % 2 === 0 ? "bg-opacity-50" : "bg-opacity-40";
-		// create search data attribute from each cell
-		let sd = room.join(" ").toLowerCase();
+		// create search data attribute from each cell, except from the id
+		let sd = "";
+		$.each(room, (i, cell) => {
+			if (i === 0) return;
+			sd += cell.toLowerCase() + " ";
+		});
 		// create divs for each cell in the row
 		$.each(room, (i, cell) => {
 			// if first element, continue
@@ -244,7 +248,6 @@ function buildCode() {
 	let url = new URL(window.location.href);
 	url.searchParams.set("c", e);
 	window.history.replaceState({}, "", url);
-	console.log(e);
 }
 
 function readCode() {
